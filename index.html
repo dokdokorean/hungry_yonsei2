@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover,initial-scale=1.0,user-scalable=no">
+    <title>학식모지</title>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1E2PLXL4N"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+    
+            gtag('config', 'G-H1E2PLXL4N');
+        </script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1BDQSTVB2C"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'G-1BDQSTVB2C');
+        </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <div id="load">
+        <img src="icon.png">
+    </div>
+        <header id="header">
+            <p id="title1">오늘 수업도</p>
+            <p id="title2">화이팅하세요!</p>
+            <img id="reload" src="reload.png">
+            <img id="menu" src="menu.png">
+        </header>
+        <div id="list">
+        </div>
+        <div id="list1">
+            <ul id="list1-1">연세플라자
+                <p id="line"></p>
+                <li id="sub1" onclick="sub1()">카페 딕셔너리</li>
+                <li id="sub2" onclick="sub2()">샐러데이즈</li>
+                <li id="sub3" onclick="sub3()">카페 GEE</li>
+                <li id="sub4" onclick="sub4()">뚜레쥬르</li>
+                <li id="sub5" onclick="sub5()">호야토스트</li>
+                <li id="sub6" onclick="sub6()">상근이 푸드코트</li>
+                <li id="sub7" onclick="sub7()">비엔씨</li>
+                <li id="sub8" onclick="sub8()">구내안경원</li>
+                <li id="sub9" onclick="sub9()">유니룩스(빨래방)</li>
+                <li id="sub10" onclick="sub10()">연세대 서점</li>
+                <li id="sub11" onclick="sub11()">누리샘</li>
+                <li id="sub12" onclick="sub12()">POD 센터</li>
+                <li id="sub13" onclick="sub13()">GS25</li>
+                <li id="sub14" onclick="sub14()">우편취급국</li>
+            </ul>
+            <ul id="list1-2">학생회관
+                <p id="line"></p>
+                <li id="sub15" onclick="sub15()">수목샘</li>
+                <li id="sub16" onclick="sub16()">행복한 달팽이</li>
+                <li id="sub17" onclick="sub17()">카페 GEE</li>
+                <li id="sub18" onclick="sub18()">AWAKE Bread</li>
+                <li id="sub19" onclick="sub19()">학관 푸드코트</li>
+                <li id="sub20" onclick="sub20()">GS25</li>
+            </ul>
+            <ul id="list1-3">기타
+                <p id="line"></p>
+                <li id="sub2" onclick="sub21()">카페 딕셔너리(정의)</li>
+                <li id="sub2" onclick="sub22()">GS25(청연,백운)</li>
+            </ul>        
+        </div>
+        <div id="main">
+            <div id="main-title">
+                <p id="main1">수목샘</p>
+                <img id="open" src="open1.png">
+                <img id="close" src="close1.png">
+                <img id="info-main" onclick="sub15()" src="pointer.png">
+            </div>
+            <div id="main-date">
+                <div id="main-date1">
+                    <img src="yesterday.png" id="yesterday">
+                    <img src="tomorrow.png" id="tomorrow">
+                    <p id="date">0000.00.00</p>
+                </div>
+                <div id="day">
+                    <p id="sun">일</p>
+                    <p id="mon">월</p>
+                    <p id="tue">화</p>
+                    <p id="wed">수</p>
+                    <p id="thur">목</p>
+                    <p id="fri">금</p>
+                    <p id="sat">토</p>
+                </div>
+            </div>
+            <div id="content">
+                <div id="select">
+                    <div id="korean">
+                        <p>오늘의 특식</p>
+                    </div>
+                    <div id="china">
+                        <p>조식백반</p>
+                    </div>
+                </div>
+                <div id="korea">
+                    <!--월요일-->
+                    <div class="mon1">
+                        <div id="baek-mon">
+                            <p id="menu1-mon">중 식</p>
+                            <p id="k-menu2-mon">미역국</p>
+                            <p id="k-menu3-mon">1,000원</p>
+                        </div>
+                        <div id="a-menu-mon">
+                            <p id="menu1-mon">A메뉴</p>
+                            <p id="a-menu2-mon">얼큰소고기콩나물해장국</p>
+                            <p id="a-menu3-mon">5,000원</p>
+                        </div>
+                        <div id="b-menu-mon">
+                            <p id="menu1-mon">B메뉴</p>
+                            <p id="b-menu2-mon">닭갈비덮밥</p>
+                            <p id="b-menu3-mon">6,000원</p>
+                        </div>
+                        <div id="c-menu-mon">
+                            <p id="menu1-mon">C메뉴</p>
+                            <p id="c-menu2-mon">잔치국수</p>
+                            <p id="c-menu3-mon">5,000원</p>
+                        </div>
+                        <div id="d-menu-mon">
+                            <p id="menu1-mon">D메뉴</p>
+                            <p id="d-menu2-mon">일식카레,소시지&새우튀김</p>
+                            <p id="d-menu3-mon">7,000원</p>
+                        </div>
+                        <div id="e-menu-mon">
+                            <p id="menu1-mon">E메뉴</p>
+                            <p id="e-menu2-mon">일식카레,소시지&새우튀김</p>
+                            <p id="e-menu3-mon">7,000원</p>
+                        </div>
+                        <div id="f-menu-mon">
+                            <p id="menu1-mon">F메뉴</p>
+                            <p id="f-menu2-mon">일식카레,소시지&새우튀김</p>
+                            <p id="f-menu3-mon">7,000원</p>
+                        </div>
+                    </div>
+                    <!--화요일-->
+                    <div class="tue1">
+                        <div id="baek-tue">
+                            <p id="menu1-tue">중 식</p>
+                            <p id="k-menu2-tue">미역국</p>
+                            <p id="k-menu3-tue">1,000원</p>
+                        </div>
+                        <div id="a-menu-tue">
+                            <p id="menu1-tue">A메뉴</p>
+                            <p id="a-menu2-tue">얼큰소고기콩나물해장국</p>
+                            <p id="a-menu3-tue">5,000원</p>
+                        </div>
+                        <div id="b-menu-tue">
+                            <p id="menu1-tue">B메뉴</p>
+                            <p id="b-menu2-tue">닭갈비덮밥</p>
+                            <p id="b-menu3-tue">6,000원</p>
+                        </div>
+                        <div id="c-menu-tue">
+                            <p id="menu1-tue">C메뉴</p>
+                            <p id="c-menu2-tue">잔치국수</p>
+                            <p id="c-menu3-tue">5,000원</p>
+                        </div>
+                        <div id="d-menu-tue">
+                            <p id="menu1-tue">D메뉴</p>
+                            <p id="d-menu2-tue">일식카레,소시지&새우튀김</p>
+                            <p id="d-menu3-tue">7,000원</p>
+                        </div>
+                        <div id="e-menu-tue">
+                            <p id="menu1-tue">E메뉴</p>
+                            <p id="e-menu2-tue">일식카레,소시지&새우튀김</p>
+                            <p id="e-menu3-tue">7,000원</p>
+                        </div>
+                        <div id="f-menu-tue">
+                            <p id="menu1-tue">F메뉴</p>
+                            <p id="f-menu2-tue">일식카레,소시지&새우튀김</p>
+                            <p id="f-menu3-tue">7,000원</p>
+                        </div>
+                    </div>
+
+                    <div class="wed1">
+                        <div id="baek-wed">
+                            <p id="menu1-wed">중 식</p>
+                            <p id="k-menu2-wed">미역국</p>
+                            <p id="k-menu3-wed">1,000원</p>
+                        </div>
+                        <div id="a-menu-wed">
+                            <p id="menu1-wed">A메뉴</p>
+                            <p id="a-menu2-wed">얼큰소고기콩나물해장국</p>
+                            <p id="a-menu3-wed">5,000원</p>
+                        </div>
+                        <div id="b-menu-wed">
+                            <p id="menu1-wed">B메뉴</p>
+                            <p id="b-menu2-wed">닭갈비덮밥</p>
+                            <p id="b-menu3-wed">6,000원</p>
+                        </div>
+                        <div id="c-menu-wed">
+                            <p id="menu1-wed">C메뉴</p>
+                            <p id="c-menu2-wed">잔치국수</p>
+                            <p id="c-menu3-wed">5,000원</p>
+                        </div>
+                        <div id="d-menu-wed">
+                            <p id="menu1-wed">D메뉴</p>
+                            <p id="d-menu2-wed">일식카레,소시지&새우튀김</p>
+                            <p id="d-menu3-wed">7,000원</p>
+                        </div>
+                        <div id="e-menu-wed">
+                            <p id="menu1-wed">E메뉴</p>
+                            <p id="e-menu2-wed">일식카레,소시지&새우튀김</p>
+                            <p id="e-menu3-wed">7,000원</p>
+                        </div>
+                        <div id="f-menu-wed">
+                            <p id="menu1-wed">F메뉴</p>
+                            <p id="f-menu2-wed">일식카레,소시지&새우튀김</p>
+                            <p id="f-menu3-wed">7,000원</p>
+                        </div>
+                    </div>
+
+                    <div class="thur1">
+                        <div id="baek-thur">
+                            <p id="menu1-thur">중 식</p>
+                            <p id="k-menu2-thur">미역국</p>
+                            <p id="k-menu3-thur">1,000원</p>
+                        </div>
+                        <div id="a-menu-thur">
+                            <p id="menu1-thur">A메뉴</p>
+                            <p id="a-menu2-thur">얼큰소고기콩나물해장국</p>
+                            <p id="a-menu3-thur">5,000원</p>
+                        </div>
+                        <div id="b-menu-thur">
+                            <p id="menu1-thur">B메뉴</p>
+                            <p id="b-menu2-thur">닭갈비덮밥</p>
+                            <p id="b-menu3-thur">6,000원</p>
+                        </div>
+                        <div id="c-menu-thur">
+                            <p id="menu1-thur">C메뉴</p>
+                            <p id="c-menu2-thur">잔치국수</p>
+                            <p id="c-menu3-thur">5,000원</p>
+                        </div>
+                        <div id="d-menu-thur">
+                            <p id="menu1-thur">D메뉴</p>
+                            <p id="d-menu2-thur">일식카레,소시지&새우튀김</p>
+                            <p id="d-menu3-thur">7,000원</p>
+                        </div>
+                        <div id="e-menu-thur">
+                            <p id="menu1-thur">E메뉴</p>
+                            <p id="e-menu2-thur">일식카레,소시지&새우튀김</p>
+                            <p id="e-menu3-thur">7,000원</p>
+                        </div>
+                        <div id="f-menu-thur">
+                            <p id="menu1-thur">F메뉴</p>
+                            <p id="f-menu2-thur">일식카레,소시지&새우튀김</p>
+                            <p id="f-menu3-thur">7,000원</p>
+                        </div>
+                    </div>
+
+                    <div class="fri1">
+                        <div id="baek-fri">
+                            <p id="menu1-fri">중 식</p>
+                            <p id="k-menu2-fri">미역국</p>
+                            <p id="k-menu3-fri">1,000원</p>
+                        </div>
+                        <div id="a-menu-fri">
+                            <p id="menu1-fri">A메뉴</p>
+                            <p id="a-menu2-fri">얼큰소고기콩나물해장국</p>
+                            <p id="a-menu3-fri">5,000원</p>
+                        </div>
+                        <div id="b-menu-fri">
+                            <p id="menu1-fri">B메뉴</p>
+                            <p id="b-menu2-fri">닭갈비덮밥</p>
+                            <p id="b-menu3-fri">6,000원</p>
+                        </div>
+                        <div id="c-menu-fri">
+                            <p id="menu1-fri">C메뉴</p>
+                            <p id="c-menu2-fri">잔치국수</p>
+                            <p id="c-menu3-fri">5,000원</p>
+                        </div>
+                        <div id="d-menu-fri">
+                            <p id="menu1-fri">D메뉴</p>
+                            <p id="d-menu2-fri">일식카레,소시지&새우튀김</p>
+                            <p id="d-menu3-fri">7,000원</p>
+                        </div>
+                        <div id="e-menu-fri">
+                            <p id="menu1-fri">E메뉴</p>
+                            <p id="e-menu2-fri">일식카레,소시지&새우튀김</p>
+                            <p id="e-menu3-fri">7,000원</p>
+                        </div>
+                        <div id="f-menu-fri">
+                            <p id="menu1-fri">F메뉴</p>
+                            <p id="f-menu2-fri">일식카레,소시지&새우튀김</p>
+                            <p id="f-menu3-fri">7,000원</p>
+                        </div>
+                    </div>
+
+                    <div class="sat1">
+                        <img src="sat-img.png" id="sat-img">
+                        <p id="sat-ment"><span style="color: #133B98; font-family: 'Pretendard-sb';font-weight: bold;">토요일</span>은 유동적인 메뉴 변경으로 미리 파악하기 어려워요</p>
+                    </div>
+                    <div class="sun1">
+                        <img src="sun-img.png" id="sun-img">
+                        <p><span style="color: #EC5F59; font-family: 'Pretendard-sb'; font-weight: bold;">일요일</span>은 운영하지 않아요</p>
+                    </div>
+                </div>
+                <div id="chinese">
+                    <div class="mon1">
+                        <div id="mor-mon">
+                            <p id="mor-mon1">오늘의 메뉴</p>
+                            <p id="mor-mon-line"></p>
+                            <p id="mor-mon-menu1">미역국</p>
+                            <p id="mor-mon-menu2">동구랑</p>
+                            <p id="mor-mon-menu3">갈비</p>
+                        </div>
+                        <div id="mor-runtime">
+                            <p id="mor-runtime1">운영시간</p>
+                            <p id="mor-runtime-line"></p>
+                            <p id="mor-runtime-time"></p>
+                        </div>
+                        <div id="mor-optime">
+                            <p id="mor-optime1">운영일정</p>
+                            <p id="mor-optime-line"></p>
+                            <p id="mor-optime-time1"></p>
+                            <p id="mor-optime-time2"></p>
+                        </div>
+                    </div>
+                    <div class="tue1">
+                        <div id="mor-mon">
+                            <p id="mor-mon1">오늘의 메뉴</p>
+                            <p id="mor-mon-line"></p>
+                            <p id="mor-tue-menu1">미역국</p>
+                            <p id="mor-tue-menu2">동구랑</p>
+                            <p id="mor-tue-menu3">갈비</p>
+                        </div>
+                        <div id="mor-runtime">
+                            <p id="mor-runtime1">운영시간</p>
+                            <p id="mor-runtime-line"></p>
+                            <p id="mor-runtime-time"></p>
+                        </div>
+                        <div id="mor-optime">
+                            <p id="mor-optime1">운영일정</p>
+                            <p id="mor-optime-line"></p>
+                            <p id="mor-optime-time1"></p>
+                            <p id="mor-optime-time2"></p>
+                        </div>
+                    </div>
+                    <div class="wed1">
+                        <div id="mor-mon">
+                            <p id="mor-mon1">오늘의 메뉴</p>
+                            <p id="mor-mon-line"></p>
+                            <p id="mor-wed-menu1">미역국</p>
+                            <p id="mor-wed-menu2">동구랑</p>
+                            <p id="mor-wed-menu3">갈비</p>
+                        </div>
+                        <div id="mor-runtime">
+                            <p id="mor-runtime1">운영시간</p>
+                            <p id="mor-runtime-line"></p>
+                            <p id="mor-runtime-time"></p>
+                        </div>
+                        <div id="mor-optime">
+                            <p id="mor-optime1">운영일정</p>
+                            <p id="mor-optime-line"></p>
+                            <p id="mor-optime-time1"></p>
+                            <p id="mor-optime-time2"></p>
+                        </div>
+                    </div>
+                    <div class="thur1">
+                        <div id="mor-mon">
+                            <p id="mor-mon1">오늘의 메뉴</p>
+                            <p id="mor-mon-line"></p>
+                            <p id="mor-thur-menu1">미역국</p>
+                            <p id="mor-thur-menu2">동구랑</p>
+                            <p id="mor-thur-menu3">갈비</p>
+                        </div>
+                        <div id="mor-runtime">
+                            <p id="mor-runtime1">운영시간</p>
+                            <p id="mor-runtime-line"></p>
+                            <p id="mor-runtime-time"></p>
+                        </div>
+                        <div id="mor-optime">
+                            <p id="mor-optime1">운영일정</p>
+                            <p id="mor-optime-line"></p>
+                            <p id="mor-optime-time1"></p>
+                            <p id="mor-optime-time2"></p>
+                        </div>
+                    </div>
+                    <div class="fri1">
+                        <div id="mor-mon">
+                            <p id="mor-mon1">오늘의 메뉴</p>
+                            <p id="mor-mon-line"></p>
+                            <p id="mor-fri-menu1">미역국</p>
+                            <p id="mor-fri-menu2">동구랑</p>
+                            <p id="mor-fri-menu3">갈비</p>
+                        </div>
+                        <div id="mor-runtime">
+                            <p id="mor-runtime1">운영시간</p>
+                            <p id="mor-runtime-line"></p>
+                            <p id="mor-runtime-time"></p>
+                        </div>
+                        <div id="mor-optime">
+                            <p id="mor-optime1">운영일정</p>
+                            <p id="mor-optime-line"></p>
+                            <p id="mor-optime-time1"></p>
+                            <p id="mor-optime-time2"></p>
+                        </div>
+                    </div>
+                    <div class="sat1">
+                        <img src="sun-img.png" id="sun-img">
+                        <p><span style="color: #EC5F59; font-family: 'Pretendard-sb'; font-weight: bold;">토요일</span>은 운영하지 않아요</p>
+
+                    </div>
+                    <div class="sun1">
+                        <img src="sun-img.png" id="sun-img">
+                        <p><span style="color: #EC5F59; font-family: 'Pretendard-sb'; font-weight: bold;">일요일</span>은 운영하지 않아요</p>
+                    </div>    
+                </div>
+                <p id="info1"><img id="info1-img" src="info1.png"> 위 메뉴는 식자재 수급상황에 따라 변경될 수 있습니다.</p>
+            </div>
+            <!-- <div id="rate">                    
+                <p id="rate1">식사 맛있게 하셨나요?</p>
+                <p id="rate2">오늘의 식단 평가하러 가기</p>
+                <img src="rate.png" id="rate-img">
+                <img src="pointer.png" id="rate-pointer">
+            </div> -->
+            <div id="learnus">
+                <img id="learnus-img" src="learnus.png">
+                <p id="learnus1">바로가기</p>
+                <img src="pointer.png" id="learnus-pointer">
+            </div>
+            <div id="sports">
+                <img id="sports-img" src="sports.png">
+                <p id="sports1">입장하기</p>
+                <p id="sports2">스포츠센터</p>
+                <p id="sports3">미래평생교육원 홈페이지</p>
+                <img src="pointer.png" id="sports-pointer">
+            </div>
+            <p id="line3"></p>
+            <div id="kakao">
+                <img id="kakao-img" src="kakao.png">
+                <p id="kakao1">카카오톡 채널 '연세대 학식모지'</p>
+                <p id="kakao2">피드백, 불만사항, 서비스 관련 문의를 받고 있어요.</p>
+            </div>
+
+        </div>
+</body>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="weekly.js"></script>
+</html>
