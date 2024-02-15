@@ -1,5 +1,6 @@
 const loading_page = document.getElementById("load");
 window.onload = function main(){
+    
     korean_func()
     //현재 년도 표시
 let date = new Date();

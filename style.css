@@ -26,6 +26,7 @@
 }
 html{
     background-color: #F3F5F5;
+    height: 1120px;
 }
 #load {
     width: 100%;
@@ -716,4 +717,70 @@ html{
     top: 120px;
     transform: translate(-50%,-50%);
     letter-spacing: -0.5px;
+}
+.navi_bar {
+    background-color: #FDFDFD;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    height:90px;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+    font-family: 'Pretendard-Light';
+    font-size: 10px;
+    border-radius: 30px 30px 0px 0px;
+    background: #FDFDFD;
+    box-shadow: 0px -1.5px 15px 2px rgba(0, 0, 0, 0.10);
+  }
+  
+  .navi_bar_details ul {
+    position: relative;
+    top: 13px;
+    width: 100%;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navi_bar_detailsli {
+    display: inline-block;
+    margin-right: 50px;
+  }
+  #more_li{
+    display: inline-block;
+  }
+  .navi_bar_details a {
+    color: #333;
+    text-decoration: none;
+  }
+  .navi_bar_details div {
+    text-align: center;
+  }
+  .navi_bar_details img {
+    display: block; /* 이미지를 블록 요소로 설정하여 수직 정렬을 위해 */
+    margin: 0 auto; /* 가운데 정렬 */
+  }
+
+#home{
+    position: relative;
+    top: -1px;
+    width: 28px;
+}
+#plaza{
+    position: relative;
+    top: -5px;
+    width: 28px;
+}
+#union{
+    position: relative;
+    top: -6px;
+    width: 32px;
+}
+#more{
+    position: relative;
+    top: -11px;
+    width: 28px;
 }
