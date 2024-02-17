@@ -1004,7 +1004,257 @@ function updateDisplay() {
     }
     updateDisplay();
   });
-  
+
+ var sunday_update = document.getElementById('sun');
+ sunday_update.addEventListener('click',function (event){
+    if (currentDate.getDay() === 1) { // 월요일인 경우
+        currentDate.setDate(currentDate.getDate() -1);
+      } 
+    else if (currentDate.getDay() === 2) { //화요일인 경우
+        currentDate.setDate(currentDate.getDate() - 2); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 3) { //수요일인 경우
+        currentDate.setDate(currentDate.getDate() - 3); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 4) { //목요일인 경우
+        currentDate.setDate(currentDate.getDate() - 4); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 5) { //금요일인 경우
+        currentDate.setDate(currentDate.getDate() - 5); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 6) { //토요일인 경우
+        currentDate.setDate(currentDate.getDate() - 6); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 0) { //일요일인 경우
+        currentDate.setDate(currentDate.getDate()); // 이전 날짜로 설정
+      }
+      updateDisplay();
+    })
+ var monday_update = document.getElementById('mon');
+ monday_update.addEventListener('click',function (event){
+    if (currentDate.getDay() === 1) { // 월요일인 경우
+        currentDate.setDate(currentDate.getDate());
+      } 
+    else if (currentDate.getDay() === 2) { //화요일인 경우
+        currentDate.setDate(currentDate.getDate() - 1); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 3) { //수요일인 경우
+        currentDate.setDate(currentDate.getDate() - 2); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 4) { //목요일인 경우
+        currentDate.setDate(currentDate.getDate() - 3); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 5) { //금요일인 경우
+        currentDate.setDate(currentDate.getDate() - 4); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 6) { //토요일인 경우
+        currentDate.setDate(currentDate.getDate() - 5); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 0) { //일요일인 경우
+        currentDate.setDate(currentDate.getDate() + 1); // 이전 날짜로 설정
+      }
+      updateDisplay();
+    })
+ var tuesday_update = document.getElementById('tue');
+ tuesday_update.addEventListener('click',function (event){
+    if (currentDate.getDay() === 1) { // 월요일인 경우
+        currentDate.setDate(currentDate.getDate() + 1);
+      } 
+    else if (currentDate.getDay() === 2) { //화요일인 경우
+        currentDate.setDate(currentDate.getDate()); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 3) { //수요일인 경우
+        currentDate.setDate(currentDate.getDate()-1); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 4) { //목요일인 경우
+        currentDate.setDate(currentDate.getDate() - 2); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 5) { //금요일인 경우
+        currentDate.setDate(currentDate.getDate() - 3); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 6) { //토요일인 경우
+        currentDate.setDate(currentDate.getDate() - 4); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 0) { //일요일인 경우
+        currentDate.setDate(currentDate.getDate() + 2 ); // 이전 날짜로 설정
+      }
+      updateDisplay();
+    })
+    var wendnesday_update = document.getElementById('wed');
+    wendnesday_update.addEventListener('click',function (event){
+       if (currentDate.getDay() === 1) { // 월요일인 경우
+           currentDate.setDate(currentDate.getDate() + 2);
+         } 
+       else if (currentDate.getDay() === 2) { //화요일인 경우
+           currentDate.setDate(currentDate.getDate() + 1); // 이전 날짜로 설정
+         }
+         else if (currentDate.getDay() === 3) { //수요일인 경우
+           currentDate.setDate(currentDate.getDate()); // 이전 날짜로 설정
+         }
+         else if (currentDate.getDay() === 4) { //목요일인 경우
+           currentDate.setDate(currentDate.getDate() - 1); // 이전 날짜로 설정
+         }
+         else if (currentDate.getDay() === 5) { //금요일인 경우
+           currentDate.setDate(currentDate.getDate() - 2); // 이전 날짜로 설정
+         }
+         else if (currentDate.getDay() === 6) { //토요일인 경우
+           currentDate.setDate(currentDate.getDate() - 3); // 이전 날짜로 설정
+         }
+         else if (currentDate.getDay() === 0) { //일요일인 경우
+           currentDate.setDate(currentDate.getDate() + 3); // 이전 날짜로 설정
+         }
+         updateDisplay();
+       })
+var thursday_update = document.getElementById('thur');
+ thursday_update.addEventListener('click',function (event){
+    if (currentDate.getDay() === 1) { // 월요일인 경우
+        currentDate.setDate(currentDate.getDate() + 3);
+      } 
+    else if (currentDate.getDay() === 2) { //화요일인 경우
+        currentDate.setDate(currentDate.getDate() + 2); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 3) { //수요일인 경우
+        currentDate.setDate(currentDate.getDate() + 1); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 4) { //목요일인 경우
+        currentDate.setDate(currentDate.getDate()); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 5) { //금요일인 경우
+        currentDate.setDate(currentDate.getDate() - 1); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 6) { //토요일인 경우
+        currentDate.setDate(currentDate.getDate() - 2); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 0) { //일요일인 경우
+        currentDate.setDate(currentDate.getDate() + 4); // 이전 날짜로 설정
+      }
+      updateDisplay();
+    })
+var friday_update = document.getElementById('fri');
+ friday_update.addEventListener('click',function (event){
+    if (currentDate.getDay() === 1) { // 월요일인 경우
+        currentDate.setDate(currentDate.getDate() + 4);
+      } 
+    else if (currentDate.getDay() === 2) { //화요일인 경우
+        currentDate.setDate(currentDate.getDate() + 3); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 3) { //수요일인 경우
+        currentDate.setDate(currentDate.getDate() + 2); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 4) { //목요일인 경우
+        currentDate.setDate(currentDate.getDate() + 1); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 5) { //금요일인 경우
+        currentDate.setDate(currentDate.getDate()); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 6) { //토요일인 경우
+        currentDate.setDate(currentDate.getDate() - 1); // 이전 날짜로 설정
+      }
+      else if (currentDate.getDay() === 0) { //일요일인 경우
+        currentDate.setDate(currentDate.getDate() + 5); // 이전 날짜로 설정
+      }
+      updateDisplay();
+    }) 
+    var satday_update = document.getElementById('sat');
+    satday_update.addEventListener('click',function (event){
+       if (currentDate.getDay() === 1) { // 월요일인 경우
+           currentDate.setDate(currentDate.getDate() + 5);
+         } 
+       else if (currentDate.getDay() === 2) { //화요일인 경우
+           currentDate.setDate(currentDate.getDate() + 4); // 이전 날짜로 설정
+         }
+         else if (currentDate.getDay() === 3) { //수요일인 경우
+           currentDate.setDate(currentDate.getDate() + 3); // 이전 날짜로 설정
+         }
+         else if (currentDate.getDay() === 4) { //목요일인 경우
+           currentDate.setDate(currentDate.getDate() + 2); // 이전 날짜로 설정
+         }
+         else if (currentDate.getDay() === 5) { //금요일인 경우
+           currentDate.setDate(currentDate.getDate() + 1); // 이전 날짜로 설정
+         }
+         else if (currentDate.getDay() === 6) { //토요일인 경우
+           currentDate.setDate(currentDate.getDate()); // 이전 날짜로 설정
+         }
+         else if (currentDate.getDay() === 0) { //일요일인 경우
+           currentDate.setDate(currentDate.getDate() + 6); // 이전 날짜로 설정
+         }
+         updateDisplay();
+       })
+       var sunday_update = document.getElementById('sun');
+       sunday_update.addEventListener('click',function (event){
+          if (currentDate.getDay() === 1) { // 월요일인 경우
+              currentDate.setDate(currentDate.getDate() -1);
+            } 
+          else if (currentDate.getDay() === 2) { //화요일인 경우
+              currentDate.setDate(currentDate.getDate() - 2); // 이전 날짜로 설정
+            }
+            else if (currentDate.getDay() === 3) { //수요일인 경우
+              currentDate.setDate(currentDate.getDate() - 3); // 이전 날짜로 설정
+            }
+            else if (currentDate.getDay() === 4) { //목요일인 경우
+              currentDate.setDate(currentDate.getDate() - 4); // 이전 날짜로 설정
+            }
+            else if (currentDate.getDay() === 5) { //금요일인 경우
+              currentDate.setDate(currentDate.getDate() - 5); // 이전 날짜로 설정
+            }
+            else if (currentDate.getDay() === 6) { //토요일인 경우
+              currentDate.setDate(currentDate.getDate() - 6); // 이전 날짜로 설정
+            }
+            else if (currentDate.getDay() === 6) { //일요일인 경우
+              currentDate.setDate(currentDate.getDate()); // 이전 날짜로 설정
+            }
+            updateDisplay();
+          })
+          var sunday_update = document.getElementById('sun');
+          sunday_update.addEventListener('click',function (event){
+             if (currentDate.getDay() === 1) { // 월요일인 경우
+                 currentDate.setDate(currentDate.getDate() -1);
+               } 
+             else if (currentDate.getDay() === 2) { //화요일인 경우
+                 currentDate.setDate(currentDate.getDate() - 2); // 이전 날짜로 설정
+               }
+               else if (currentDate.getDay() === 3) { //수요일인 경우
+                 currentDate.setDate(currentDate.getDate() - 3); // 이전 날짜로 설정
+               }
+               else if (currentDate.getDay() === 4) { //목요일인 경우
+                 currentDate.setDate(currentDate.getDate() - 4); // 이전 날짜로 설정
+               }
+               else if (currentDate.getDay() === 5) { //금요일인 경우
+                 currentDate.setDate(currentDate.getDate() - 5); // 이전 날짜로 설정
+               }
+               else if (currentDate.getDay() === 6) { //토요일인 경우
+                 currentDate.setDate(currentDate.getDate() - 6); // 이전 날짜로 설정
+               }
+               else if (currentDate.getDay() === 6) { //일요일인 경우
+                 currentDate.setDate(currentDate.getDate()); // 이전 날짜로 설정
+               }
+               updateDisplay();
+             })
+             var sunday_update = document.getElementById('sun');
+             sunday_update.addEventListener('click',function (event){
+                if (currentDate.getDay() === 1) { // 월요일인 경우
+                    currentDate.setDate(currentDate.getDate() -1);
+                  } 
+                else if (currentDate.getDay() === 2) { //화요일인 경우
+                    currentDate.setDate(currentDate.getDate() - 2); // 이전 날짜로 설정
+                  }
+                  else if (currentDate.getDay() === 3) { //수요일인 경우
+                    currentDate.setDate(currentDate.getDate() - 3); // 이전 날짜로 설정
+                  }
+                  else if (currentDate.getDay() === 4) { //목요일인 경우
+                    currentDate.setDate(currentDate.getDate() - 4); // 이전 날짜로 설정
+                  }
+                  else if (currentDate.getDay() === 5) { //금요일인 경우
+                    currentDate.setDate(currentDate.getDate() - 5); // 이전 날짜로 설정
+                  }
+                  else if (currentDate.getDay() === 6) { //토요일인 경우
+                    currentDate.setDate(currentDate.getDate() - 6); // 이전 날짜로 설정
+                  }
+                  else if (currentDate.getDay() === 6) { //일요일인 경우
+                    currentDate.setDate(currentDate.getDate()); // 이전 날짜로 설정
+                  }
+                  updateDisplay();
+                })    
 var reload=document.getElementById('reload');
 reload.addEventListener('click',function(event){
   location.reload()
