@@ -1345,9 +1345,8 @@ let keyframes2 = [
 
 
 document.getElementById('home').addEventListener('click',function(event){
-    // JavaScript 코드
     window.webkit.messageHandlers.callSwiftFunction.postMessage(null);
-    console.log('성공')
+    window.alert('제발 성공')
 })
 
 var list2 =document.getElementById('list');
