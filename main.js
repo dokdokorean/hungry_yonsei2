@@ -1343,6 +1343,13 @@ let keyframes2 = [
     {opacity: 0}
   ];
 
+
+document.getElementById('home').addEventListener('click',function(event){
+    // JavaScript 코드
+    window.webkit.messageHandlers.callSwiftFunction.postMessage(null);
+    console.log('성공')
+})
+
 var list2 =document.getElementById('list');
 list2.addEventListener('click',function(event){
     document.getElementById('list').animate(keyframes0, options1);
