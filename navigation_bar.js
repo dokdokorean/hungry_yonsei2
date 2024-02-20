@@ -25,14 +25,7 @@
   
     // 웹사이트 body에 네비게이션 바 추가
     document.body.appendChild(navBar);
-  
-    // 특정 웹사이트에만 네비게이션 바 표시
-    const targetUrl = 'https://ys.learnus.org/login/method/sso.php'; // 원하는 URL로 변경
-    if (window.location.href === targetUrl) {
-      navBar.style.display = 'block';
-    } else {
-      navBar.style.display = 'none';
-    }
+      
   })();
   function showNavigationBar() {
     document.getElementById('navigation-bar').style.display = 'block';
