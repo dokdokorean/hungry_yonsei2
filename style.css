@@ -24,7 +24,7 @@
   }
   @font-face {
     font-family: "Yonsei-Light";
-    src: url("YonseiLight.ttf") format("truetype");
+    src: url("YonseiLight.TTF") format("truetype");
   }
 ::-webkit-scrollbar {
     display: none;
