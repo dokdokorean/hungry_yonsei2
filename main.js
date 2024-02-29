@@ -1704,8 +1704,26 @@ function reload(){
 function learnus(){
     window.open('https://ys.learnus.org/login/method/sso.php')
 }
+function yonsei(){
+    window.open('https://www.yonsei.ac.kr/wj/')
+}
+function portal(){
+    window.open('https://portal.yonsei.ac.kr/ui/index.html')
+}
+function mail(){
+    window.open('https://zm901.mailplug.com/member/login?host_domain=yonsei.ac.kr&')
+}
 function sports(){
     window.open('https://uni.yonsei.ac.kr/fmcs/1')
+}
+function house(){
+    window.open('https://wjdorm.yonsei.ac.kr/wjdorm/index.do')
+}
+function facility(){
+  window.open('https://space.yonsei.ac.kr/')
+}
+function bus(){
+  window.open('https://ysbusticket.yonsei.ac.kr/')
 }
   
 function chinafunc(){
