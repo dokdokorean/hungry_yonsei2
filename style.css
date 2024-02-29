@@ -631,7 +631,7 @@ body{
     color: #333;
     text-decoration: none;
   }
-  nav li a.active {
+  nav li a.activ {
     color: #003876;
     filter: invert(12%) sepia(89%) saturate(2452%) hue-rotate(200deg) brightness(41%) contrast(120%);
   }
@@ -658,8 +658,6 @@ body{
     position: relative;
     top: -6px;
     width: 21px;
-    filter: invert(12%) sepia(89%) saturate(2452%) hue-rotate(200deg) brightness(41%) contrast(120%);
-
 }
 #more{
     position: relative;
