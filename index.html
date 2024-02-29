@@ -23,111 +23,46 @@
             gtag('config', 'G-1BDQSTVB2C');
         </script>
     <link rel="stylesheet" href="style.css">
-</head>
+    </head>
 <body>    
     <div id="load">
         <img src="icon.png">
     </div>
+      <div id="content">
         <header id="header">
             <p id="title1">오늘 수업도</p>
             <p id="title2">화이팅하세요!</p>
-            <img id="reload" src="reload.png">
-            <img id="menu" src="menu.png">
+            <img id="reload" onlick="reload()" src="reload.png">
         </header>
-        <div class="navi_bar">
-            <div class="navi_bar_details">
-                <ul>
-                    <li class="navi_bar_detailsli">
-                        <div>
-                            <img id="home" src="home.png">
-                            <a>홈</a>
-                        </div>
-                    </li>
-                    <li class="navi_bar_detailsli">
-                        <div>
-                            <img id="plaza" src="plaza.png">
-                            <a>연세플라자</a>
-                        </div>
-                    </li>
-                    <li class="navi_bar_detailsli">
-                        <div>
-                            <img id="union" src="union.png">
-                            <a>학생회관</a>
-                        </div>
-                    </li>
-                    <li id="more_li">
-                        <div>
-                            <img id="more" src="more.png">
-                            <a>기타 편의시설</a>
-                        </div>
-                    </li>
-                </ul>                
-            </div>
-          </div>
-        <div id="list">
-        </div>
-        <div id="list1">
-            <ul id="list1-1">연세플라자
-                <p id="line"></p>
-                <li id="sub1" onclick="sub1()">카페 딕셔너리</li>
-                <li id="sub2" onclick="sub2()">샐러데이즈</li>
-                <li id="sub3" onclick="sub3()">카페 GEE</li>
-                <li id="sub4" onclick="sub4()">뚜레쥬르</li>
-                <li id="sub5" onclick="sub5()">호야토스트</li>
-                <li id="sub6" onclick="sub6()">상근이 푸드코트</li>
-                <li id="sub7" onclick="sub7()">비엔씨</li>
-                <li id="sub8" onclick="sub8()">구내안경원</li>
-                <li id="sub9" onclick="sub9()">유니룩스(빨래방)</li>
-                <li id="sub10" onclick="sub10()">연세대 서점</li>
-                <li id="sub11" onclick="sub11()">누리샘</li>
-                <li id="sub12" onclick="sub12()">POD 센터</li>
-                <li id="sub13" onclick="sub13()">GS25</li>
-                <li id="sub14" onclick="sub14()">우편취급국</li>
-            </ul>
-            <ul id="list1-2">학생회관
-                <p id="line"></p>
-                <li id="sub15" onclick="sub15()">수목샘</li>
-                <li id="sub16" onclick="sub16()">행복한 달팽이</li>
-                <li id="sub17" onclick="sub17()">카페 GEE</li>
-                <li id="sub18" onclick="sub18()">AWAKE Bread</li>
-                <li id="sub19" onclick="sub19()">학관 푸드코트</li>
-                <li id="sub20" onclick="sub20()">GS25</li>
-            </ul>
-            <ul id="list1-3">기타
-                <p id="line"></p>
-                <li id="sub2" onclick="sub21()">카페 딕셔너리(정의)</li>
-                <li id="sub2" onclick="sub22()">GS25(청연,백운)</li>
-            </ul>        
-        </div>
-        <div id="main">
+            <div id="main">
             <div id="main-title">
-                <p id="main1">수목샘</p>
+                <p id="main1">카페테리아 현</p>
                 <img id="open" src="open1.png">
                 <img id="close" src="close1.png">
                 <img id="info-main" onclick="sub15()" src="pointer.png">
             </div>
             <div id="main-date">
                 <div id="main-date1">
-                    <img src="yesterday.png" id="yesterday">
-                    <img src="tomorrow.png" id="tomorrow">
+                    <img src="yesterday.png" onclick="yesterday1()" id="yesterday">
+                    <img src="tomorrow.png" onclick="tomorrow1()" id="tomorrow">
                     <p id="date">0000.00.00</p>
                 </div>
                 <div id="day">
-                    <p id="sun">일</p>
-                    <p id="mon">월</p>
-                    <p id="tue">화</p>
-                    <p id="wed">수</p>
-                    <p id="thur">목</p>
-                    <p id="fri">금</p>
-                    <p id="sat">토</p>
+                    <p onclick="sundayupdate()"id="sun">일</p>
+                    <p onclick="mondayupdate()" id="mon">월</p>
+                    <p onclick="tuesdayupdate()" id="tue">화</p>
+                    <p onclick="wendnesdayupdate()" id="wed">수</p>
+                    <p onclick="thursdayupdate()" id="thur">목</p>
+                    <p onclick="fridayupdate()"id="fri">금</p>
+                    <p onclick="saturdayupdate()" id="sat">토</p>
                 </div>
             </div>
-            <div id="content">
+            <div id="content1">
                 <div id="select">
-                    <div id="korean">
+                    <div onclick="koreanfunc()" id="korean">
                         <p>오늘의 특식</p>
                     </div>
-                    <div id="china">
+                    <div onclick="chinafunc()" id="china">
                         <p>조식백반</p>
                     </div>
                 </div>
@@ -445,31 +380,34 @@
                 </div>
                 <p id="info1"><img id="info1-img" src="info1.png"> 위 메뉴는 식자재 수급상황에 따라 변경될 수 있습니다.</p>
             </div>
-            <!-- <div id="rate">                    
-                <p id="rate1">식사 맛있게 하셨나요?</p>
-                <p id="rate2">오늘의 식단 평가하러 가기</p>
-                <img src="rate.png" id="rate-img">
-                <img src="pointer.png" id="rate-pointer">
-            </div> -->
-            <div id="learnus">
-                <img id="learnus-img" src="learnus.png">
-                <p id="learnus1">바로가기</p>
-                <img src="pointer.png" id="learnus-pointer">
-            </div>
-            <div id="sports">
-                <img id="sports-img" src="sports.png">
-                <p id="sports1">입장하기</p>
-                <p id="sports2">스포츠센터</p>
-                <p id="sports3">미래평생교육원 홈페이지</p>
-                <img src="pointer.png" id="sports-pointer">
-            </div>
-            <p id="line3"></p>
-            <div id="kakao">
-                <img id="kakao-img" src="kakao.png">
-                <p id="kakao1">카카오톡 채널 '연세대 학식모지'</p>
-                <p id="kakao2">피드백, 불만사항, 서비스 관련 문의를 받고 있어요.</p>
-            </div>
         </div>
+      </div>
+      <nav class="navi_bar">
+        <div class="navi_bar_details">
+            <ul>
+                <li class="navi_bar_detailsli">
+                    <div>
+                        <a href="#" class="active" onclick="changeContent(this);menu_load();"><img id="home" src="home.png">홈</a>
+                    </div>
+                </li>
+                <li class="navi_bar_detailsli">
+                    <div>
+                        <a href="#"onclick="changeContent(this)"><img id="plaza" src="cafe.png">편의시설</a>
+                    </div>
+                </li>
+                <li class="navi_bar_detailsli">
+                    <div>
+                        <a href="#"onclick="changeContent(this)"><img id="union" src="site.png">웹사이트</a>
+                    </div>
+                </li>
+                <li id="more_li">
+                    <div>
+                        <a href="#"onclick="changeContent(this)"><img id="more" src="cs.png">문의하기</a>
+                    </div>
+                </li>
+            </ul>                
+        </div>
+    </nav>
 </body>
 <script type="text/javascript" src="main.js"></script>
 <script type="text/javascript" src="weekly.js"></script>

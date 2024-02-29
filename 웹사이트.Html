@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: "Pretendard-Medium";
+            src: url("Pretendard-Medium.ttf") format("truetype");
+          }
+        @font-face {
+            font-family: "Pretendard-Light";
+            src: url("Pretendard-Light.ttf") format("truetype");
+          }
+        @font-face {
+            font-family: "Pretendard-SB";
+            src: url("Pretendard-SemiBold.ttf") format("truetype");
+          }
+        @font-face {
+            font-family: "Pretendard-Regular";
+            src: url("Pretendard-Regular.ttf") format("truetype");
+          }
+          @font-face {
+            font-family: "Pretendard-el";
+            src: url("Pretendard-ExtraLight.ttf") format("truetype");
+          }
+          @font-face {
+            font-family: "Yonsei-Bold";
+            src: url("YonseiBold.TTF") format("truetype");
+          }
+          @font-face {
+            font-family: "Yonsei-Light";
+            src: url("YonseiLight.ttf") format("truetype");
+          }
+        html,body{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            background-color: #F3F5F5;
+        }
+        #site-header{
+            width: 100%;
+            height: 270px;
+            overflow: hidden;
+        }
+        #site-header img{
+            position: relative;
+            height: 100%;
+            width: 100%;
+            left: 50%;
+            transform: translate(-50%,0);
+            object-fit: cover;
+        }
+        #site-header p{
+            font-family: "Pretendard-medium";
+            font-size: 28px;
+            position: absolute;
+            color: white;
+            top: 110px;
+            left: 30px;
+            z-index: 1;
+        }
+        #site-main{
+            position: relative;
+            top: -50px;
+            left: 50%;
+            transform: translate(-50%,0);
+            width: 87%;
+            height: 470px;
+            background-color: white;
+            border-radius: 15px;
+        }
+        #site-main div{
+            position: relative;
+            border-bottom: 1px #E5E5E5 solid;
+            width: 90%;
+            height: 55px;
+            top: 15px;
+            left: 50%;
+            transform: translate(-50%,0);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="site-header">
+        <img src="site_bg.png">
+        <p>주요 웹사이트</p>
+    </div>
+    <body>
+        <div id="site-main">
+            <div id="learnus" onclick="learnus()" style="display: flex; align-items: center;">
+                <a style="display: flex; align-items: center; text-decoration: none;">
+                    <img src="learnus.png" style="margin-left: 10px; width:110px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
+                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
+                </a>
+            </div>
+            <div id="yonsei" onclick="yonsei()" style="display: flex; align-items: center;">
+                <a style="display: flex; align-items: center; text-decoration: none;">
+                    <img src="yonsei.png" style="margin-right: 1px; width:50px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
+                    <span style="color: #333D4B; font-family:'Yonsei-Light';">연세대학교 홈페이지</span> <!-- 텍스트 스타일 및 색상 추가 -->
+                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
+                </a>
+            </div>
+            <div id="portal" onclick="portal()" style="display: flex; align-items: center;">
+                <a style="display: flex; align-items: center; text-decoration: none;">
+                    <img src="portal.png" style="position:relative; left:10px; margin-right: 24px; width:27px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
+                    <span style="color: #333D4B; font-family:'Yonsei-Light';">연세포탈서비스</span> <!-- 텍스트 스타일 및 색상 추가 -->
+                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
+                </a>
+            </div>
+            <div id="mail" onclick="mail()" style="display: flex; align-items: center;">
+                <a style="display: flex; align-items: center; text-decoration: none;">
+                    <img src="mail.png" style="position:relative; left:12px; margin-right: 27px; width:22px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
+                    <span style="color: #333D4B; font-family:'Yonsei-Light';">웹메일</span> <!-- 텍스트 스타일 및 색상 추가 -->
+                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
+                </a>
+            </div>
+            <div id="sports" onclick="sports()" style="display: flex; align-items: center;">
+                <a style="display: flex; align-items: center; text-decoration: none;">
+                    <img src="sports.png" style="position:relative; left:12px; margin-right: 27px; width:22px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
+                    <span style="color: #333D4B; font-family:'Yonsei-Light';">스포츠센터</span> <!-- 텍스트 스타일 및 색상 추가 -->
+                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
+                </a>
+            </div>
+            <div id="house" onclick="house()" style="display: flex; align-items: center;">
+                <a style="display: flex; align-items: center; text-decoration: none;">
+                    <img src="house.png" style="position:relative; left:12px; margin-right: 27px; width:22px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
+                    <span style="color: #333D4B; font-family:'Yonsei-Light';">원주생활관</span> <!-- 텍스트 스타일 및 색상 추가 -->
+                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
+                </a>
+            </div>
+            <div id="facility" onclick="facility()" style="display: flex; align-items: center;">
+                <a style="display: flex; align-items: center; text-decoration: none;">
+                    <img src="facility.png" style="position:relative; left:12px; margin-right: 27px; width:22px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
+                    <span style="color: #333D4B; font-family:'Yonsei-Light';">공간대관시스템</span> <!-- 텍스트 스타일 및 색상 추가 -->
+                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
+                </a>
+            </div>
+            <div id="bus" onclick="bus()" style=" border:none;display: flex; align-items: center;">
+                <a style="display: flex; align-items: center; text-decoration: none;">
+                    <img src="bus.png" style="position:relative; left:12px; margin-right: 27px; width:22px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
+                    <span style="color: #333D4B; font-family:'Yonsei-Light';">통학버스 예약 시스템</span> <!-- 텍스트 스타일 및 색상 추가 -->
+                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
+                </a>
+            </div>
+        </div>
+    </body>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smooth Animation</title>
+<style>
+  #animated-div {
+    width: 100px;
+    height: 300px;
+    background-color: blue;
+    transition: height 0.5s ease; /* 부드러운 애니메이션을 위한 트랜지션 설정 */
+  }
+  .hidden {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<div id="animated-div">
+  <div id="hidden-element" class="hidden">여기에 숨겨진 요소가 있어요!</div>
+</div>
+<button onclick="toggleVisibilityAndExpand()">Toggle Visibility & Expand</button>
+
+<script>
+  function toggleVisibilityAndExpand() {
+    var div = document.getElementById('animated-div');
+    var hiddenElement = document.getElementById('hidden-element');
+    if (div.style.height === '500px') { // 이미 확장된 상태라면 축소하고 요소 숨김
+      div.style.height = '300px';
+      hiddenElement.classList.add('hidden');
+    } else { // 확장되지 않은 상태라면 확장하고 요소 보임
+      div.style.height = '500px';
+      hiddenElement.classList.remove('hidden');
+    }
+  }
+</script>
+
+</body>
+</html>

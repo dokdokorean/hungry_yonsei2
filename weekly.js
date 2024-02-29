@@ -1,3 +1,4 @@
+function menu_load(){
 //월요일
 
 //천원의 아침
@@ -178,3 +179,5 @@ document.getElementById('e-menu3-fri').innerText=''//가격
 //점심메뉴 7번 
 document.getElementById('f-menu2-fri').innerText='-'//메뉴
 document.getElementById('f-menu3-fri').innerText=''//가격
+
+}

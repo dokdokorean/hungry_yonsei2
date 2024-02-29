@@ -27,11 +27,3 @@
     document.body.appendChild(navBar);
       
   })();
-  function showNavigationBar() {
-    document.getElementById('navigation-bar').style.display = 'block';
-  }
-  
-  function hideNavigationBar() {
-    document.getElementById('navigation-bar').style.display = 'none';
-  }
-  
