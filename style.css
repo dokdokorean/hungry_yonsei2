@@ -631,7 +631,7 @@ body{
     color: #333;
     text-decoration: none;
   }
-  nav li a.activ {
+  nav li div.active {
     filter: invert(12%) sepia(89%) saturate(2452%) hue-rotate(200deg) brightness(41%) contrast(120%);
   }
   .navi_bar_details div {

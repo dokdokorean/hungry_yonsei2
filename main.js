@@ -1763,13 +1763,13 @@ let keyframes2 = [
   ];
 
   document.addEventListener('DOMContentLoaded', function() {
-    var links = document.querySelectorAll('nav a');
+    var links = document.querySelectorAll('nav li div');
     links.forEach(function(link) {
       link.addEventListener('click', function() {
         links.forEach(function(otherLink) {
-          otherLink.classList.remove('activ');
+          otherLink.classList.remove('active');
         });
-        this.classList.add('activ');
+        this.classList.add('active');
       });
     });
   });
