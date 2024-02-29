@@ -633,7 +633,8 @@ body{
   }
   nav li a.active {
     color: #003876;
-    filter: invert(12%) sepia(89%) saturate(2452%) hue-rotate(200deg) brightness(41%) contrast(120%);  }
+    filter: invert(12%) sepia(89%) saturate(2452%) hue-rotate(200deg) brightness(41%) contrast(120%);
+  }
   .navi_bar_details div {
     text-align: center;
   }
@@ -657,6 +658,8 @@ body{
     position: relative;
     top: -6px;
     width: 21px;
+    filter: invert(12%) sepia(89%) saturate(2452%) hue-rotate(200deg) brightness(41%) contrast(120%);
+
 }
 #more{
     position: relative;
