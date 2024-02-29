@@ -1767,9 +1767,9 @@ let keyframes2 = [
     links.forEach(function(link) {
       link.addEventListener('click', function() {
         links.forEach(function(otherLink) {
-          otherLink.classList.remove('active');
+          otherLink.classList.remove('activ');
         });
-        this.classList.add('active');
+        this.classList.add('activ');
       });
     });
   });
