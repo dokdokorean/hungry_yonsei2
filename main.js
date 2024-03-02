@@ -1852,7 +1852,7 @@ let keyframes2 = [
         main_div.style.height = '200px'
     } else { // 확장되지 않은 상태라면 확장하고 요소 보임
       div.style.height = '170px';
-      main_div.style.height = '350px'
+      main_div.style.height = '400px'
       document.getElementById('down-arrow-baek').style.transform='rotate(180deg)'; 
     }
   }
