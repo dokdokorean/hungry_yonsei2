@@ -2201,8 +2201,8 @@ function changeContent(clickedElement) {
           </div>
           <img src="plaza-img.png">
           <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">연세플라자</p>
-          <button class="down-arrow" style="position:absolute; bottom:15px; right:25px; width:30px; background: none; border:none;" onclick="toggleVisibilityAndExpand()"><img style="width: 30px;" src="down-arrow.png"></button>
-      </div>`;
+          <button class="down-arrow" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="toggleVisibilityAndExpand()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;" src="down-arrow.png"></button>
+          </div>`;
       break;
     case "웹사이트":
       newText = `

@@ -115,13 +115,13 @@
         </div>
         <img src="plaza-img.png">
         <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">연세플라자</p>
-        <button class="down-arrow" style="position:absolute; bottom:15px; right:25px; width:30px; background: none; border:none;" onclick="toggleVisibilityAndExpand()"><img style="width: 30px;" src="down-arrow.png"></button>
+        <button class="down-arrow" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="toggleVisibilityAndExpand()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;" src="down-arrow.png"></button>
     </div>
 </body>
 <script>
     function toggleVisibilityAndExpand() {
         var div = document.getElementById('plaza-list');
-        if (div.style.height === '700px') { // 이미 확장된 상태라면 축소하고 요소 숨김
+        if (div.style.height === '530px') { // 이미 확장된 상태라면 축소하고 요소 숨김
           div.style.height = '0px';
         } else { // 확장되지 않은 상태라면 확장하고 요소 보임
           div.style.height = '530px';
