@@ -1791,9 +1791,15 @@ let keyframes2 = [
       });
     });
   });
-  
+  function toggleVisibilityAndExpand() {
+    var div = document.getElementById('plaza-list');
+    if (div.style.height === '700px') { // 이미 확장된 상태라면 축소하고 요소 숨김
+      div.style.height = '0px';
+    } else { // 확장되지 않은 상태라면 확장하고 요소 보임
+      div.style.height = '530px';
+    }
+  }
 function changeContent(clickedElement) {
-
   var content = document.getElementById("content");
   var newText;
   switch (clickedElement.innerText) {
@@ -2154,7 +2160,49 @@ function changeContent(clickedElement) {
       setTimeout(() => main_pageload(),0);
       break;
     case "편의시설":
-      newText = "<h3>About Content</h3><p>Learn more about us.</p>";
+      newText = `<p id="facility-title">편의시설</p>
+      <div id="plaza-img">
+          <div id="plaza-list" style="display: flex;">
+              <div style="position:absolute; font-size:14px; margin:5px; width:40%; left:30px; font-family:  'pretendard-light'; top:60px;">
+                  <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
+                      카페/디저트
+                  </div>
+                  <p>카페 딕셔너리</p>
+                  <p>카페 GEE</p>
+                  <p>카페 둥둥</p>
+                  <p>호야토스트</p>
+                  <p>뚜레쥬르</p>
+              </div>
+              <div style="position:absolute; font-size:14px; margin:5px; width:40%; right:15px; font-family:  'pretendard-light'; top:60px;">
+                  <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
+                      일반음식점
+                  </div>
+                  <p>BNC</p>
+              </div>
+              <div style="position:absolute; font-size:14px; margin:5px; width:40%; right:15px; font-family:  'pretendard-light'; top:150px;">
+                  <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
+                      판매점
+                  </div>
+                  <p>누리샘</p>
+                  <p>누리서점</p>
+              </div>
+              <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:270px;">
+                  <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
+                      편의시설
+                  </div>
+                  <p>POD센터</p>
+                  <p>유니룩스(빨래방)</p>
+                  <p>구내안경원</p>
+                  <p>우리은행</p>
+                  <p>우편취급국</p>
+                  <p>GS25</p>
+  
+              </div>
+          </div>
+          <img src="plaza-img.png">
+          <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">연세플라자</p>
+          <button class="down-arrow" style="position:absolute; bottom:15px; right:25px; width:30px; background: none; border:none;" onclick="toggleVisibilityAndExpand()"><img style="width: 30px;" src="down-arrow.png"></button>
+      </div>`;
       break;
     case "웹사이트":
       newText = `
