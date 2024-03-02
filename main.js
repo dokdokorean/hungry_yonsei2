@@ -1793,7 +1793,7 @@ let keyframes2 = [
   });
   function toggleVisibilityAndExpand() {
     var div = document.getElementById('plaza-list');
-    if (div.style.height === '700px') { // 이미 확장된 상태라면 축소하고 요소 숨김
+    if (div.style.height === '530px') { // 이미 확장된 상태라면 축소하고 요소 숨김
       div.style.height = '0px';
     } else { // 확장되지 않은 상태라면 확장하고 요소 보임
       div.style.height = '530px';
