@@ -1846,12 +1846,12 @@ let keyframes2 = [
   function baek() {
     var div = document.getElementById('baek-list');
     var main_div = document.getElementById('main-baek');
-    if (div.style.height === '170px') {
+    if (div.style.height === '200px') {
         document.getElementById('down-arrow-baek').style.transform='rotate(360deg)'; 
         div.style.height = '0px';
         main_div.style.height = '200px'
     } else { // 확장되지 않은 상태라면 확장하고 요소 보임
-      div.style.height = '170px';
+      div.style.height = '200px';
       main_div.style.height = '400px'
       document.getElementById('down-arrow-baek').style.transform='rotate(180deg)'; 
     }
