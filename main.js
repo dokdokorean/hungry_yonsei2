@@ -1698,8 +1698,8 @@ function saturdayupdate(){
          }
          updateDisplay();
        }
-function reload(){
-  location.reload()
+function reload1(){
+  window.location.reload()
 }
 function learnus(){
     window.open('https://ys.learnus.org/login/method/sso.php')
@@ -1865,7 +1865,7 @@ function changeContent(clickedElement) {
      <header id="header">
                     <p id="title1">오늘 수업도</p>
                     <p id="title2">화이팅하세요!</p>
-                    <img id="reload" onlick="reload()" src="reload.png">
+                    <img id="reload" onclick="reload1()" src="reload.png">
                 </header>
                     <div id="main">
                     <div id="main-title">
