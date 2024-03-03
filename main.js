@@ -2344,7 +2344,7 @@ function changeContent(clickedElement) {
       newText = `
       <div id="site-header">
         <img id="main-site-img" style="border-radius: 0px 0px 20px 20px;" src="site_bg.png">
-        <p style=" position:absolute; font-size:25px; top:50px;font-family: 'pretendard-medium';" >교내 웹사이트</p>
+        <p style=" position:absolute; font-size:30px; left:23px;top:90px;font-family: 'pretendard-sb';" >교내 웹사이트</p>
         <div id="learnus" onclick="learnus()" style="position:relative; top:-190px; display: flex; align-items: center;">
                 <a style="display: flex; align-items: center; text-decoration: none;">
                     <img src="learnus.png" style="margin-left: 20%; width:95px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
@@ -2422,7 +2422,6 @@ function changeContent(clickedElement) {
                     </div>
                 </div>
             </div>
-            
       `;
       break;
     case "문의하기":

@@ -74,7 +74,7 @@ body{
 }
 #site-header{
     width: 100%;
-    height: 310px;
+    height: 380px;
     overflow: hidden;
 }
 #main-site-img{
@@ -86,8 +86,8 @@ body{
     object-fit: cover;
 }
 #site-header p{
-    font-family: "Pretendard-medium";
-    font-size: 28px;
+    font-family: "Pretendard-sb";
+    font-size: 35px;
     position: absolute;
     color: white;
     top: 110px;
@@ -130,7 +130,7 @@ body{
     top: 0px;
     left: 0px;
     width: 48%;
-    height: 140px;
+    height: 150px;
     background-color: #003378;
     border-radius: 15px;
 }
@@ -139,43 +139,43 @@ body{
     top: 0px;
     right: 0px;
     width: 48%;
-    height: 140px;
+    height: 150px;
     background-color: #003378;
     border-radius: 15px;
 }
 #sports{
     position: absolute;
-    top: 150px;
+    top: 160px;
     left: 0px;
     width: 48%;
-    height: 140px;
+    height: 150px;
     background-color: #002556;
     border-radius: 15px;
 }
 #house{
     position: absolute;
-    top: 150px;
+    top: 160px;
     right: 0px;
     width: 48%;
-    height: 140px;
+    height: 150px;
     background-color: #002556;
     border-radius: 15px;
 }
 #facility{
     position: absolute;
-    top: 300px;
+    top: 320px;
     left: 0px;
     width: 48%;
-    height: 140px;
+    height: 150px;
     background-color: #262626;
     border-radius: 15px;
 }
 #bus{
     position: absolute;
-    top: 300px;
+    top: 320px;
     right: 0px;
     width: 48%;
-    height: 140px;
+    height: 150px;
     background-color: #262626;
     border-radius: 15px;
 }
