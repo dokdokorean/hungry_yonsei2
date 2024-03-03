@@ -2343,68 +2343,86 @@ function changeContent(clickedElement) {
     case "웹사이트":
       newText = `
       <div id="site-header">
-        <img src="site_bg.png">
-        <p>주요 웹사이트</p>
+        <img id="main-site-img" style="border-radius: 0px 0px 20px 20px;" src="site_bg.png">
+        <p style=" position:absolute; font-size:25px; top:50px;font-family: 'pretendard-medium';" >교내 웹사이트</p>
+        <div id="learnus" onclick="learnus()" style="position:relative; top:-190px; display: flex; align-items: center;">
+                <a style="display: flex; align-items: center; text-decoration: none;">
+                    <img src="learnus.png" style="margin-left: 20%; width:95px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
+                    <img style="position:absolute; right:10px; width: 30px;" src="tomorrow.png">
+                </a>
+            </div>
+            <div id="yonsei" onclick="yonsei()" style="position:relative; top:-180px;display: flex; align-items: center;">
+                <a style="display: flex; align-items: center; text-decoration: none;">
+                    <img src="yonsei.png" style="margin-left:8px; margin-right: 1px; width:40px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
+                    <span style="color: #333D4B; font-family:'Yonsei-Light';">연세대학교 홈페이지</span> <!-- 텍스트 스타일 및 색상 추가 -->
+                    <img style="position:absolute; right:10px; width: 30px;" src="tomorrow.png">
+                </a>
+            </div>
     </div>
     <body>
-        <div id="site-main">
-            <div id="learnus" onclick="learnus()" style="display: flex; align-items: center;">
-                <a style="display: flex; align-items: center; text-decoration: none;">
-                    <img src="learnus.png" style="margin-left: 10px; width:110px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
-                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
-                </a>
+            <div id="big-button">
+                <div id="portal" onclick="portal()">
+                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:30px; width:30px;border-radius:15px; background-color:white;">
+                        <img style="position: absolute;width:21px; left:4px; top:7px;" src="portal.png">
+                    </div>
+                    <p style="position:absolute; top:40px;left:10px; font-family:'pretendard-medium'; color:white; font-size:18px;">연세포털</p>
+                    <p style="position:absolute; top:70px;left:10px;font-family:'pretendard-light'; color:#A3C2EB;  font-size:11px;">YONSEI PORTAL</p>
+                    <div style="position:absolute; bottom:15px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
+                        <img style="position: absolute;width:17px; left:6px; top:7px;" src="arrow-site.png">
+                    </div>
+                </div>
+                <div id="mail" onclick="mail()">
+                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:30px; width:30px;border-radius:15px; background-color:white;">
+                        <img style="position: absolute;width:17px; left:6px; top:8px;" src="mail.png">
+                    </div>
+                    <p style="position:absolute; top:40px;left:10px; font-family:'pretendard-medium'; color:white; font-size:18px;">웹메일</p>
+                    <p style="position:absolute; top:70px;left:10px;font-family:'pretendard-light'; color:#A3C2EB;  font-size:11px;">YONSEI MAIL</p>
+                    <div style="position:absolute; bottom:15px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
+                        <img style="position: absolute;width:17px; left:6px; top:7px;" src="arrow-site.png">
+                    </div>
+                </div>
+                <div id="sports" onclick="sports()">
+                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:30px; width:30px;border-radius:15px; background-color:white;">
+                        <img style="position: absolute;width:21px; left:4px; top:7px;" src="sports.png">
+                    </div>
+                    <p style="position:absolute; top:40px;left:10px; font-family:'pretendard-medium'; color:white; font-size:18px;">스포츠센터</p>
+                    <p style="position:absolute; top:70px;left:10px;font-family:'pretendard-light'; color:#A3C2EB;  font-size:11px;">SPORTS CENTER</p>
+                    <div style="position:absolute; bottom:15px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
+                        <img style="position: absolute;width:17px; left:6px; top:7px;" src="arrow-site.png">
+                    </div>
+                </div>
+                <div id="house" onclick="house()">
+                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:30px; width:30px;border-radius:15px; background-color:white;">
+                        <img style="position: absolute;width:17px; left:6px; top:10px;" src="house.png">
+                    </div>
+                    <p style="position:absolute; top:40px;left:10px; font-family:'pretendard-medium'; color:white; font-size:18px;">원주생활관</p>
+                    <p style="position:absolute; top:70px;left:10px;font-family:'pretendard-light'; color:#A3C2EB;  font-size:11px;">HOUSING OFFICE</p>
+                    <div style="position:absolute; bottom:15px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
+                        <img style="position: absolute;width:17px; left:6px; top:7px;" src="arrow-site.png">
+                    </div>
+                </div>
+                <div id="facility" onclick="facility()">
+                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:30px; width:30px;border-radius:15px; background-color:white;">
+                        <img style="position: absolute;width:15px; left:7px; top:6px;" src="facility.png">
+                    </div>
+                    <p style="position:absolute; top:40px;left:10px; font-family:'pretendard-medium'; color:white; font-size:18px;">공간대관시스템</p>
+                    <p style="position:absolute; top:70px;left:10px;font-family:'pretendard-light'; color:#C8C8C8;  font-size:11px;">FACILITY RENT</p>
+                    <div style="position:absolute; bottom:15px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
+                        <img style="position: absolute;width:17px; filter:brightness(20%); left:6px; top:7px;" src="arrow-site.png">
+                    </div>
+                </div>
+                <div id="bus" onclick="bus()">
+                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:30px; width:30px;border-radius:15px; background-color:white;">
+                        <img style="position: absolute;width:17px; left:6px; top:5px;" src="bus.png">
+                    </div>
+                    <p style="position:absolute; top:40px;left:10px; font-family:'pretendard-medium'; color:white; font-size:18px;">버스예약시스템</p>
+                    <p style="position:absolute; top:70px;left:10px;font-family:'pretendard-light'; color:#C8C8C8;  font-size:11px;">BUS RESERVATION</p>
+                    <div style="position:absolute; bottom:15px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
+                        <img style="position: absolute;width:17px; filter:brightness(20%); left:6px; top:7px;" src="arrow-site.png">
+                    </div>
+                </div>
             </div>
-            <div id="yonsei" onclick="yonsei()" style="display: flex; align-items: center;">
-                <a style="display: flex; align-items: center; text-decoration: none;">
-                    <img src="yonsei.png" style="margin-right: 1px; width:50px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
-                    <span style="color: #333D4B; font-family:'Yonsei-Light';">연세대학교 홈페이지</span> <!-- 텍스트 스타일 및 색상 추가 -->
-                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
-                </a>
-            </div>
-            <div id="portal" onclick="portal()" style="display: flex; align-items: center;">
-                <a style="display: flex; align-items: center; text-decoration: none;">
-                    <img src="portal.png" style="position:relative; left:10px; margin-right: 24px; width:27px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
-                    <span style="color: #333D4B; font-family:'Yonsei-Light';">연세포탈서비스</span> <!-- 텍스트 스타일 및 색상 추가 -->
-                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
-                </a>
-            </div>
-            <div id="mail" onclick="mail()" style="display: flex; align-items: center;">
-                <a style="display: flex; align-items: center; text-decoration: none;">
-                    <img src="mail.png" style="position:relative; left:12px; margin-right: 27px; width:22px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
-                    <span style="color: #333D4B; font-family:'Yonsei-Light';">웹메일</span> <!-- 텍스트 스타일 및 색상 추가 -->
-                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
-                </a>
-            </div>
-            <div id="sports" onclick="sports()" style="display: flex; align-items: center;">
-                <a style="display: flex; align-items: center; text-decoration: none;">
-                    <img src="sports.png" style="position:relative; left:12px; margin-right: 27px; width:22px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
-                    <span style="color: #333D4B; font-family:'Yonsei-Light';">스포츠센터</span> <!-- 텍스트 스타일 및 색상 추가 -->
-                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
-                </a>
-            </div>
-            <div id="house" onclick="house()" style="display: flex; align-items: center;">
-                <a style="display: flex; align-items: center; text-decoration: none;">
-                    <img src="house.png" style="position:relative; left:12px; margin-right: 27px; width:22px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
-                    <span style="color: #333D4B; font-family:'Yonsei-Light';">원주생활관</span> <!-- 텍스트 스타일 및 색상 추가 -->
-                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
-                </a>
-            </div>
-            <div id="facility" onclick="facility()" style="display: flex; align-items: center;">
-                <a style="display: flex; align-items: center; text-decoration: none;">
-                    <img src="facility.png" style="position:relative; left:12px; margin-right: 27px; width:22px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
-                    <span style="color: #333D4B; font-family:'Yonsei-Light';">공간대관시스템</span> <!-- 텍스트 스타일 및 색상 추가 -->
-                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
-                </a>
-            </div>
-            <div id="bus" onclick="bus()" style=" border:none;display: flex; align-items: center;">
-                <a style="display: flex; align-items: center; text-decoration: none;">
-                    <img src="bus.png" style="position:relative; left:12px; margin-right: 27px; width:22px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
-                    <span style="color: #333D4B; font-family:'Yonsei-Light';">통학버스 예약 시스템</span> <!-- 텍스트 스타일 및 색상 추가 -->
-                    <img style="position:absolute; right:0px; width: 30px;" src="tomorrow.png">
-                </a>
-            </div>
-        </div>
-    </body>
+            
       `;
       break;
     case "문의하기":
