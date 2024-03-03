@@ -1900,7 +1900,7 @@ function changeContent(clickedElement) {
                                 <p>오늘의 특식</p>
                             </div>
                             <div onclick="chinafunc()" id="china">
-                                <p>조식백반</p>
+                                <p>천원의 아침밥</p>
                             </div>
                         </div>
                         <div id="korea">
