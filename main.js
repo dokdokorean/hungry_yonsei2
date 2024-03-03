@@ -2236,34 +2236,33 @@ function changeContent(clickedElement) {
                             카페/디저트
                         </div>
                         <p onclick="sub1()">카페 딕셔너리</p>
-                        <p>카페 GEE</p>
-                        <p>카페 둥둥</p>
-                        <p>호야토스트</p>
-                        <p>뚜레쥬르</p>
+                        <p onclick="sub3()">카페 GEE</p>
+                        <p onclick="sub2()">카페 샐러데이즈</p>
+                        <p onclick="sub5()">호야토스트</p>
+                        <p onclick="sub4()">뚜레쥬르</p>
                     </div>
                     <div style="position:absolute; font-size:14px; margin:5px; width:40%; right:15px; font-family:  'pretendard-light'; top:60px;">
                         <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
                             일반음식점
                         </div>
-                        <p>BNC</p>
+                        <p onclick="sub7()">BNC</p>
                     </div>
                     <div style="position:absolute; font-size:14px; margin:5px; width:40%; right:15px; font-family:  'pretendard-light'; top:150px;">
                         <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
                             판매점
                         </div>
-                        <p>누리샘</p>
-                        <p>구내서점</p>
+                        <p onclick="sub11()">누리샘</p>
+                        <p onclick="sub10()">구내서점</p>
                     </div>
                     <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; display:flex; font-family:  'pretendard-light'; top:270px;">
                         <div style="font-family:'pretendard-sb'; width:100%; height:30px; display:block; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
                             편의시설
                         </div>
-                        <p style="position:absolute;width:50%; top:30px;left:0px;">POD센터</p>
-                        <p style="position:absolute;width:50%; top:30px;right:0px;">유니룩스(빨래방)</p>
-                        <p style="position:absolute;width:50%; top:70px;left:0px;">구내안경원</p>
-                        <p style="position:absolute;width:50%; top:70px; right:0px;">우리은행</p>
-                        <p style="position:absolute;width:50%; top:110px; left:0px;">우편취급국</p>
-                        <p style="position:absolute;width:50%; top:110px; right:0px;">GS25</p>
+                        <p onclick="sub12()" style="position:absolute;width:50%; top:30px;left:0px;">POD센터</p>
+                        <p onclick="sub9()" style="position:absolute;width:50%; top:30px;right:0px;">유니룩스(빨래방)</p>
+                        <p onclick="sub8()" style="position:absolute;width:50%; top:70px;left:0px;">구내안경원</p>
+                        <p onclick="sub14()" style="position:absolute;width:50%; top:110px; left:0px;">우편취급국</p>
+                        <p onclick="sub13()" style="position:absolute;width:50%; top:70px; right:0px;">GS25</p>
                     </div>
                 </div>
                 <img src="plaza-img.png">
@@ -2278,24 +2277,21 @@ function changeContent(clickedElement) {
                     <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
                         카페/디저트
                     </div>
-                    <p>카페 GEE</p>
-                    <p>행복한 달팽이</p>
-
-                    <p>AWAKE BREAD</p>
+                    <p onclick="sub17()" >카페 GEE</p>
+                    <p onclick="sub16()">행복한 달팽이</p>
+                    <p onclick="sub18()">AWAKE BREAD</p>
                 </div>
                 <div style="position:absolute; font-size:14px; margin:5px; width:40%; right:15px; font-family:  'pretendard-light'; top:60px;">
                     <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
                         일반음식점
                     </div>
-                    <p>카페테리아 현</p>
-                    <p>학생회관 푸드코트</p>
+                    <p onclick="sub15()">카페테리아 현</p>
                 </div>
-
                 <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:210px;">
                     <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
                         편의시설
                     </div>
-                    <p>GS25 학생회관점</p>
+                    <p onclick="sub20()">GS25 학생회관점</p>
                 </div>
             </div>
             <img src="union-img.png">
@@ -2310,7 +2306,7 @@ function changeContent(clickedElement) {
                     <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
                         편의시설
                     </div>
-                    <p>GS25 청연학사점</p>
+                    <p onclick="sub22()">GS25 청연학사점</p>
                 </div>
             </div>
             <img src="cy-img.png">
@@ -2323,9 +2319,9 @@ function changeContent(clickedElement) {
             <div id="jung-list" style="display: flex;">
                 <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:60px;">
                     <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
-                        편의시설
+                        카페
                     </div>
-                    <p>GS25 청연학사점</p>
+                    <p onclick="sub21()">카페 딕셔너리</p>
                 </div>
             </div>
             <img src="jung-img.png">
@@ -2340,7 +2336,7 @@ function changeContent(clickedElement) {
                     <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
                         편의시설
                     </div>
-                    <p>GS25 청연학사점</p>
+                    <p onclick="sub22()">GS25 청연학사점</p>
                 </div>
             </div>
             <img src="baek-img.png">
