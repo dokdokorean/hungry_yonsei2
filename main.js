@@ -1888,7 +1888,7 @@ function changeContent(clickedElement) {
                             <p onclick="sundayupdate()"id="sun">일</p>
                             <p onclick="mondayupdate()" id="mon">월</p>
                             <p onclick="tuesdayupdate()" id="tue">화</p>
-                            <p onclick="wednesdayupdate()" id="wed">수</p>
+                            <p onclick="wendnesdayupdate()" id="wed">수</p>
                             <p onclick="thursdayupdate()" id="thur">목</p>
                             <p onclick="fridayupdate()"id="fri">금</p>
                             <p onclick="saturdayupdate()" id="sat">토</p>
