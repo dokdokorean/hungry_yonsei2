@@ -2336,7 +2336,7 @@ function changeContent(clickedElement) {
                     <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
                         편의시설
                     </div>
-                    <p onclick="sub22()">GS25 청연학사점</p>
+                    <p onclick="sub22()">GS25 백운관점</p>
                 </div>
             </div>
             <img src="baek-img.png">
