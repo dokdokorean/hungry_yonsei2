@@ -33,14 +33,24 @@
             font-family: "Yonsei-Light";
             src: url("YonseiLight.ttf") format("truetype");
           }
-        html{
+        html,body{
+            width: 100%;
+            height: 100%;
+            margin: 0;
             background-color: #F3F5F5;
         }
-        #facility-title{
+        #facility-header{
             position: relative;
-            top: 25px;
+            width: 100%;
+            height: 210px;
+            margin: 0px;
+        }
+        #facility-title{
+            position: absolute;
+            top: 85px;
             left: -35px;
-            font-size: 30px;
+            font-size: 33px;
+            color: white;
             margin: 50px;
             font-family: 'pretendard-medium';
         }
@@ -49,7 +59,7 @@
             margin-top: 10px;
             left: 50%;
             transform: translate(-50%,0%);
-            width: 100%;
+            width: 95%;
             height: 140px;
             border-radius: 15px;
             transition: height 0.5s ease; /* 부드러운 애니메이션을 위한 트랜지션 설정 */
@@ -114,7 +124,7 @@
             position: relative;
             left: 50%;
             transform: translate(-50%,0%);
-            width: 100%;
+            width: 95%;
             height: 140px;
             border-radius: 15px;
             transition: height 0.5s ease; /* 부드러운 애니메이션을 위한 트랜지션 설정 */
@@ -152,7 +162,7 @@
             position: relative;
             left: 50%;
             transform: translate(-50%,0%);
-            width: 100%;
+            width: 95%;
             height: 140px;
             border-radius: 15px;
             transition: height 0.5s ease; /* 부드러운 애니메이션을 위한 트랜지션 설정 */
@@ -191,7 +201,7 @@
             position: relative;
             left: 50%;
             transform: translate(-50%,0%);
-            width: 100%;
+            width: 95%;
             height: 140px;
             border-radius: 15px;
             transition: height 0.5s ease; /* 부드러운 애니메이션을 위한 트랜지션 설정 */
@@ -231,15 +241,21 @@
             position: relative;
             left: 50%;
             transform: translate(-50%,0%);
-            width: 100%;
+            width: 95%;
             height: 140px;
             border-radius: 15px;
             transition: height 0.5s ease; /* 부드러운 애니메이션을 위한 트랜지션 설정 */
         }
     </style>
 </head>
-<body>        
-    <p id="facility-title">편의시설</p>
+<body>
+    <div id="facility-header" style=" height:300px;border-radius: 0px 0px 20px 20px; background-color:#21252C;" >
+        <p id="facility-title">편의시설</p>
+        <div style="position:absolute; top:210px;width: 90%; background-color:white; left:50%; transform:translate(-50%,0); height:65px; border-radius:15px; display:flex; text-decoration:none; align-items:center;">
+            <img style="position:relative; margin-left:10px; top:-1px; width: 20px; margin-right:5px;" src="speaker.png">
+            <span style="color:#21252C; font-family:'pretendard-medium';">최종 업데이트 - 2024.3.4 기준</span>
+        </div>
+    </div>        
     <div id="main-plaza">
         <div id="plaza-img">
                 <div id="plaza-list" style="display: flex;">

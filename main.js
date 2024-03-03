@@ -1862,11 +1862,15 @@ function changeContent(clickedElement) {
   switch (clickedElement.innerText) {
     case "홈":
      newText = `
-     <header id="header">
-                    <p id="title1">오늘 수업도</p>
-                    <p id="title2">화이팅하세요!</p>
-                    <img id="reload" onclick="reload1()" src="reload.png">
-                </header>
+     <header id="header" style=" height:300px;border-radius: 0px 0px 20px 20px; background-color:#21252C;" >
+            <p id="title1">오늘 수업도</p>
+            <p id="title2">화이팅하세요!</p>
+            <div style="position:absolute; top:210px;width: 90%; background-color:white; left:50%; transform:translate(-50%,0); height:65px; border-radius:15px; display:flex; text-decoration:none; align-items:center;">
+                <img style="position:relative; margin-left:10px; top:-1px; width: 20px; margin-right:5px;" src="speaker.png">
+                <span style="color:#21252C; font-size:14px; font-family:'pretendard-medium';">식자재 수급상황에 따라 메뉴가 변경될 수 있어요.</span>
+            </div>
+            <img id="reload" onclick="reload1()" src="reload.png">
+        </header> 
                     <div id="main">
                     <div id="main-title">
                         <p id="main1">카페테리아 현</p>
@@ -2211,41 +2215,46 @@ function changeContent(clickedElement) {
                                 <p><span style="color: #EC5F59; font-family: 'Pretendard-sb'; font-weight: bold;">일요일</span>은 운영하지 않아요</p>
                             </div>    
                         </div>
-                        <p id="info1"><img id="info1-img" src="info1.png"> 위 메뉴는 식자재 수급상황에 따라 변경될 수 있습니다.</p>
                     </div>
       `;
       setTimeout(() => main_pageload(),0);
       break;
     case "편의시설":
       newText = `
-      <p id="facility-title">편의시설</p>
-      <div id="main-plaza">
-          <div id="plaza-img" onclick="plaza()">
-                  <div id="plaza-list" style="display: flex;">
-                      <div style="position:absolute; font-size:14px; margin:5px; width:40%; left:30px; font-family:  'pretendard-light'; top:60px;">
-                          <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
-                              카페/디저트
-                          </div>
-                          <p>카페 딕셔너리</p>
-                          <p>카페 GEE</p>
-                          <p>카페 둥둥</p>
-                          <p>호야토스트</p>
-                          <p>뚜레쥬르</p>
-                      </div>
-                      <div style="position:absolute; font-size:14px; margin:5px; width:40%; right:15px; font-family:  'pretendard-light'; top:60px;">
-                          <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
-                              일반음식점
-                          </div>
-                          <p>BNC</p>
-                      </div>
-                      <div style="position:absolute; font-size:14px; margin:5px; width:40%; right:15px; font-family:  'pretendard-light'; top:150px;">
-                          <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
-                              판매점
-                          </div>
-                          <p>누리샘</p>
-                          <p>구내서점</p>
-                      </div>
-                      <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; display:flex; font-family:  'pretendard-light'; top:270px;">
+      <div id="facility-header" style=" height:300px;border-radius: 0px 0px 20px 20px; background-color:#21252C;" >
+        <p id="facility-title">편의시설</p>
+        <div style="position:absolute; top:210px;width: 90%; background-color:white; left:50%; transform:translate(-50%,0); height:65px; border-radius:15px; display:flex; text-decoration:none; align-items:center;">
+            <img style="position:relative; margin-left:10px; top:-1px; width: 20px; margin-right:5px;" src="speaker.png">
+            <span style="color:#21252C; font-family:'pretendard-medium';">최종 업데이트 - 2024.3.4 기준</span>
+        </div>
+    </div>        
+    <div id="main-plaza">
+        <div id="plaza-img">
+                <div id="plaza-list" style="display: flex;">
+                    <div style="position:absolute; font-size:14px; margin:5px; width:40%; left:30px; font-family:  'pretendard-light'; top:60px;">
+                        <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
+                            카페/디저트
+                        </div>
+                        <p>카페 딕셔너리</p>
+                        <p>카페 GEE</p>
+                        <p>카페 둥둥</p>
+                        <p>호야토스트</p>
+                        <p>뚜레쥬르</p>
+                    </div>
+                    <div style="position:absolute; font-size:14px; margin:5px; width:40%; right:15px; font-family:  'pretendard-light'; top:60px;">
+                        <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
+                            일반음식점
+                        </div>
+                        <p>BNC</p>
+                    </div>
+                    <div style="position:absolute; font-size:14px; margin:5px; width:40%; right:15px; font-family:  'pretendard-light'; top:150px;">
+                        <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
+                            판매점
+                        </div>
+                        <p>누리샘</p>
+                        <p>구내서점</p>
+                    </div>
+                    <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; display:flex; font-family:  'pretendard-light'; top:270px;">
                         <div style="font-family:'pretendard-sb'; width:100%; height:30px; display:block; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
                             편의시설
                         </div>
@@ -2256,89 +2265,89 @@ function changeContent(clickedElement) {
                         <p style="position:absolute;width:50%; top:110px; left:0px;">우편취급국</p>
                         <p style="position:absolute;width:50%; top:110px; right:0px;">GS25</p>
                     </div>
-                  </div>
-                  <img src="plaza-img.png">
-                  <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">연세플라자</p>
-                  <button id="down-arrow-plaza" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" ><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
-              </div>
-      </div>
-      <div id="main-union">
-          <div id="union-img" onclick="union()">
-              <div id="union-list" style="display: flex;">
-                  <div style="position:absolute; font-size:14px; margin:5px; width:40%; left:30px; font-family:  'pretendard-light'; top:60px;">
-                      <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
-                          카페/디저트
-                      </div>
-                      <p>카페 GEE</p>
-                      <p>행복한 달팽이</p>
-  
-                      <p>AWAKE BREAD</p>
-                  </div>
-                  <div style="position:absolute; font-size:14px; margin:5px; width:40%; right:15px; font-family:  'pretendard-light'; top:60px;">
-                      <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
-                          일반음식점
-                      </div>
-                      <p>카페테리아 현</p>
-                      <p>학생회관 푸드코트</p>
-                  </div>
-  
-                  <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:210px;">
-                      <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
-                          편의시설
-                      </div>
-                      <p>GS25 학생회관점</p>
-                  </div>
-              </div>
-              <img src="union-img.png">
-              <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">학생회관</p>
-              <button id="down-arrow-union" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
-          </div>
-      </div>
-      <div id="main-cy">
-          <div id="cy-img" onclick="cy()">
-              <div id="cy-list" style="display: flex;">
-                  <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:60px;">
-                      <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
-                          편의시설
-                      </div>
-                      <p>GS25 청연학사점</p>
-                  </div>
-              </div>
-              <img src="cy-img.png">
-              <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">청연학사</p>
-              <button id="down-arrow-cy" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
-          </div>
-      </div>
-      <div id="main-jung">
-          <div id="jung-img" onclick="jung()">
-              <div id="jung-list" style="display: flex;">
-                  <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:60px;">
-                      <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
-                          편의시설
-                      </div>
-                      <p>GS25 청연학사점</p>
-                  </div>
-              </div>
-              <img src="jung-img.png">
-              <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">정의관</p>
-              <button id="down-arrow-jung" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
-          </div>
-      </div>
-      <div id="main-baek">
-          <div id="baek-img" onclick="baek()">
-              <div id="baek-list" style="display: flex;">
-                  <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:60px;">
-                      <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
-                          편의시설
-                      </div>
-                      <p>GS25 청연학사점</p>
-                  </div>
-              </div>
-              <img src="baek-img.png">
-              <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">백운관</p>
-              <button id="down-arrow-baek" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
-          </div>
-      </div>`;
+                </div>
+                <img src="plaza-img.png">
+                <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">연세플라자</p>
+                <button id="down-arrow-plaza" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="plaza()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
+            </div>
+    </div>
+    <div id="main-union">
+        <div id="union-img" >
+            <div id="union-list" style="display: flex;">
+                <div style="position:absolute; font-size:14px; margin:5px; width:40%; left:30px; font-family:  'pretendard-light'; top:60px;">
+                    <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
+                        카페/디저트
+                    </div>
+                    <p>카페 GEE</p>
+                    <p>행복한 달팽이</p>
+
+                    <p>AWAKE BREAD</p>
+                </div>
+                <div style="position:absolute; font-size:14px; margin:5px; width:40%; right:15px; font-family:  'pretendard-light'; top:60px;">
+                    <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
+                        일반음식점
+                    </div>
+                    <p>카페테리아 현</p>
+                    <p>학생회관 푸드코트</p>
+                </div>
+
+                <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:210px;">
+                    <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
+                        편의시설
+                    </div>
+                    <p>GS25 학생회관점</p>
+                </div>
+            </div>
+            <img src="union-img.png">
+            <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">학생회관</p>
+            <button id="down-arrow-union" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="union()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
+        </div>
+    </div>
+    <div id="main-cy">
+        <div id="cy-img" >
+            <div id="cy-list" style="display: flex;">
+                <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:60px;">
+                    <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
+                        편의시설
+                    </div>
+                    <p>GS25 청연학사점</p>
+                </div>
+            </div>
+            <img src="cy-img.png">
+            <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">청연학사</p>
+            <button id="down-arrow-cy" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="cy()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
+        </div>
+    </div>
+    <div id="main-jung">
+        <div id="jung-img" >
+            <div id="jung-list" style="display: flex;">
+                <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:60px;">
+                    <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
+                        편의시설
+                    </div>
+                    <p>GS25 청연학사점</p>
+                </div>
+            </div>
+            <img src="jung-img.png">
+            <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">정의관</p>
+            <button id="down-arrow-jung" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="jung()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
+        </div>
+    </div>
+    <div id="main-baek">
+        <div id="baek-img" >
+            <div id="baek-list" style="display: flex;">
+                <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:60px;">
+                    <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
+                        편의시설
+                    </div>
+                    <p>GS25 청연학사점</p>
+                </div>
+            </div>
+            <img src="baek-img.png">
+            <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">백운관</p>
+            <button id="down-arrow-baek" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="baek()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
+        </div>
+    </div>`;
       break;
     case "웹사이트":
       newText = `
