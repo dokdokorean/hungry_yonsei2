@@ -34,7 +34,6 @@
 }
 html{
     width: 100%;
-    height: 1200px;
     margin: 0;
     background-color: #F3F5F5;
 }
@@ -184,7 +183,7 @@ body{
     position: relative;
     color: white;
     top: 110px;
-    left: 17px;
+    left: 22px;
     width: 300px;
     height: 20px;
     font-size: 30px;
@@ -195,7 +194,7 @@ body{
     position: relative;
     color: white;
     top: 100px;
-    left: 17px;
+    left: 22px;
     width: 300px;
     height: 20px;
     font-size: 30px;
@@ -702,6 +701,7 @@ body{
   }
   nav li div.active {
     filter: invert(12%) sepia(89%) saturate(2452%) hue-rotate(200deg) brightness(41%) contrast(120%);
+    font-family: 'pretendard-medium';
   }
   .navi_bar_details div {
     text-align: center;
@@ -744,7 +744,7 @@ body{
     font-size: 33px;
     color: white;
     margin: 50px;
-    font-family: 'pretendard-medium';
+    font-family: 'pretendard-sb';
 }
 #main-plaza{
     position: relative;
@@ -933,6 +933,7 @@ body{
     position: relative;
     left: 50%;
     transform: translate(-50%,0%);
+    margin-bottom: 100px;
     width: 95%;
     height: 140px;
     border-radius: 15px;
@@ -947,9 +948,9 @@ body{
 #support-title{
     position: absolute;
     top: 85px;
-    left: -35px;
+    left: -25px;
     font-size: 33px;
     color: white;
     margin: 50px;
-    font-family: 'pretendard-medium';
+    font-family: 'pretendard-sb';
 }

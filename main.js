@@ -2221,7 +2221,7 @@ function changeContent(clickedElement) {
       break;
     case "편의시설":
       newText = `
-      <div id="facility-header" style=" height:300px;border-radius: 0px 0px 20px 20px; background-color:#21252C;" >
+      <div id="facility-header" style=" letter-spacing:-1px;height:300px;border-radius: 0px 0px 20px 20px; background-color:#21252C;" >
         <p id="facility-title">편의시설</p>
         <div style="position:absolute; top:210px;width: 90%; background-color:white; left:50%; transform:translate(-50%,0); height:65px; border-radius:15px; display:flex; text-decoration:none; align-items:center;">
             <img style="position:relative; margin-left:10px; top:-1px; width: 20px; margin-right:5px;" src="speaker.png">
@@ -2235,7 +2235,7 @@ function changeContent(clickedElement) {
                         <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
                             카페/디저트
                         </div>
-                        <p>카페 딕셔너리</p>
+                        <p onclick="sub1()">카페 딕셔너리</p>
                         <p>카페 GEE</p>
                         <p>카페 둥둥</p>
                         <p>호야토스트</p>
@@ -2268,7 +2268,7 @@ function changeContent(clickedElement) {
                 </div>
                 <img src="plaza-img.png">
                 <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">연세플라자</p>
-                <button id="down-arrow-plaza" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="plaza()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
+                <button id="down-arrow-plaza" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="plaza()"><img style="position:absolute; left:6.5px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
             </div>
     </div>
     <div id="main-union">
@@ -2300,7 +2300,7 @@ function changeContent(clickedElement) {
             </div>
             <img src="union-img.png">
             <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">학생회관</p>
-            <button id="down-arrow-union" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="union()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
+            <button id="down-arrow-union" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="union()"><img style="position:absolute; left:6.5px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
         </div>
     </div>
     <div id="main-cy">
@@ -2315,7 +2315,7 @@ function changeContent(clickedElement) {
             </div>
             <img src="cy-img.png">
             <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">청연학사</p>
-            <button id="down-arrow-cy" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="cy()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
+            <button id="down-arrow-cy" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="cy()"><img style="position:absolute; left:6.5px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
         </div>
     </div>
     <div id="main-jung">
@@ -2330,7 +2330,7 @@ function changeContent(clickedElement) {
             </div>
             <img src="jung-img.png">
             <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">정의관</p>
-            <button id="down-arrow-jung" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="jung()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
+            <button id="down-arrow-jung" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="jung()"><img style="position:absolute; left:6.5px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
         </div>
     </div>
     <div id="main-baek">
@@ -2345,7 +2345,7 @@ function changeContent(clickedElement) {
             </div>
             <img src="baek-img.png">
             <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">백운관</p>
-            <button id="down-arrow-baek" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="baek()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
+            <button id="down-arrow-baek" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="baek()"><img style="position:absolute; left:6.5px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
         </div>
     </div>`;
       break;
@@ -2353,7 +2353,7 @@ function changeContent(clickedElement) {
       newText = `
       <div id="site-header">
         <img id="main-site-img" style="border-radius: 0px 0px 20px 20px;" src="site_bg.png">
-        <p style=" position:absolute; font-size:30px; left:23px;top:90px;font-family: 'pretendard-sb';" >교내 웹사이트</p>
+        <p style=" position:absolute;letter-spacing:-1px;font-size:30px; left:23px;top:95px;font-family: 'pretendard-sb';" >교내 웹사이트</p>
         <div id="learnus" onclick="learnus()" style="position:relative; top:-190px; display: flex; align-items: center;">
                 <a style="display: flex; align-items: center; text-decoration: none;">
                     <img src="learnus.png" style="margin-left: 20%; width:95px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
@@ -2436,7 +2436,7 @@ function changeContent(clickedElement) {
     case "문의하기":
       newText = `
       <div id="support-header" style=" height:300px;border-radius: 0px 0px 20px 20px; background-color:#21252C;" >
-        <p id="support-title">지원 및 문의</p>
+        <p id="support-title"style="letter-spacing:-1px;" >지원 및 문의</p>
         <div style="position:absolute; top:210px;width: 90%; background-color:white; left:50%; transform:translate(-50%,0); height:65px; border-radius:15px; display:flex; text-decoration:none; align-items:center;">
             <img style="position:relative; margin-left:15px; top:-1px; width: 20px; margin-right:5px;" src="headphone.png">
             <span style="color:#21252C; font-family:'pretendard-medium';">피드백, 불만사항, 관련문의를 받고 있어요.</span>
@@ -2450,17 +2450,17 @@ function changeContent(clickedElement) {
     <div style="position: relative; width:90%; background-color:white; height:300px; left:50%; transform:translate(-50%,0); top:60px; border-radius:15px;">
         <img src="mail.png" style="position:absolute; top: 30px;left: 25px;; width: 32px;">
         <p style="position: absolute; top:50px; left:21px; font-family:pretendard-sb; color:#003378; font-size:23px;">이메일 문의</p>
-        <div style="position:absolute;bottom:90px; border-bottom:1px #E5E5E5 solid; left:50%; transform:translate(-50%,0); height:70px; width: 88%;">
+        <div style="position:absolute;bottom:77px; border-bottom:1px #E5E5E5 solid; left:50%; transform:translate(-50%,0); height:70px; width: 88%;">
             <p style="position: absolute; font-family:pretendard-sb; color:#212121; left:0px;">개발 및 운영</p>
-            <p style="position: absolute; font-family:pretendard-regular; color:#333D4B;right:0px;">23 의공학부 배진우</p>
-            <p style="position: absolute; font-family:pretendard-regular; color:#333D4B;bottom:-5px; right:0px;">gravity0225@naver.com</p>
+            <p style="position: absolute; font-family:pretendard-regular; font-size:14px; top:2px; color:#333D4B;right:0px;">23 의공학부 배진우</p>
+            <p style="position: absolute; font-family:pretendard-regular; font-size:14px; color:#333D4B;bottom:-5px; right:0px;">gravity0225@naver.com</p>
         </div>
         <div style="position:absolute;bottom:10px; left:50%; transform:translate(-50%,0); height:70px; width: 88%;">
             <p style="position: absolute; font-family:pretendard-sb; color:#212121; left:0px;">디자인</p>
-            <p style="position: absolute; font-family:pretendard-regular; color:#333D4B;right:0px;">19 디자인예술학부 진기원</p>
-            <p style="position: absolute; font-family:pretendard-regular; color:#333D4B; bottom:-5px; right:0px;">jwon_822@yonsei.ac.kr</p>
+            <p style="position: absolute; font-family:pretendard-regular; font-size:14px; top:2px; color:#333D4B;right:0px;">19 디자인예술학부 진기원</p>
+            <p style="position: absolute; font-family:pretendard-regular; font-size:14px; color:#333D4B; bottom:0px; right:-2px;">jwon_822@yonsei.ac.kr</p>
         </div>
-    </div>        
+    </div>       
       `;
       break;
     default:
