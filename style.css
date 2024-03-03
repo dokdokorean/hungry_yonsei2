@@ -74,7 +74,7 @@ body{
 }
 #site-header{
     width: 100%;
-    height: 380px;
+    height: 370px;
     overflow: hidden;
 }
 #main-site-img{
@@ -118,7 +118,7 @@ body{
 }
 #big-button{
     position: relative;
-    top: 20px;
+    top: 24px;
     left: 50%;
     transform: translate(-50%,0);
     height: 700px;
@@ -129,8 +129,8 @@ body{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 48%;
-    height: 150px;
+    width: 47%;
+    height: 165px;
     background-color: #003378;
     border-radius: 15px;
 }
@@ -138,44 +138,44 @@ body{
     position: absolute;
     top: 0px;
     right: 0px;
-    width: 48%;
-    height: 150px;
+    width: 47%;
+    height: 165px;
     background-color: #003378;
     border-radius: 15px;
 }
 #sports{
     position: absolute;
-    top: 160px;
+    top: 185px;
     left: 0px;
-    width: 48%;
-    height: 150px;
+    width: 47%;
+    height: 165px;
     background-color: #002556;
     border-radius: 15px;
 }
 #house{
     position: absolute;
-    top: 160px;
+    top: 185px;
     right: 0px;
-    width: 48%;
-    height: 150px;
+    width: 47%;
+    height: 165px;
     background-color: #002556;
     border-radius: 15px;
 }
 #facility{
     position: absolute;
-    top: 320px;
+    top: 370px;
     left: 0px;
-    width: 48%;
-    height: 150px;
+    width: 47%;
+    height: 165px;
     background-color: #262626;
     border-radius: 15px;
 }
 #bus{
     position: absolute;
-    top: 320px;
+    top: 370px;
     right: 0px;
-    width: 48%;
-    height: 150px;
+    width: 47%;
+    height: 165px;
     background-color: #262626;
     border-radius: 15px;
 }
@@ -694,7 +694,7 @@ body{
     display: inline-block;
   }
   .navi_bar_details a {
-    color: #333;
+    color: #A0A0A0;
     text-decoration: none;
   }
   nav li div.active {

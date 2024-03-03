@@ -2354,7 +2354,7 @@ function changeContent(clickedElement) {
             <div id="yonsei" onclick="yonsei()" style="position:relative; top:-180px;display: flex; align-items: center;">
                 <a style="display: flex; align-items: center; text-decoration: none;">
                     <img src="yonsei.png" style="margin-left:8px; margin-right: 1px; width:40px"> <!-- 이미지 오른쪽에 약간의 여백 추가 -->
-                    <span style="color: #333D4B; font-family:'Yonsei-Light';">연세대학교 홈페이지</span> <!-- 텍스트 스타일 및 색상 추가 -->
+                    <span style="color: #333D4B; letter-spacing:-0.7px; font-family:'Yonsei-Light';">연세대학교 홈페이지</span> <!-- 텍스트 스타일 및 색상 추가 -->
                     <img style="position:absolute; right:10px; width: 30px;" src="tomorrow.png">
                 </a>
             </div>
@@ -2362,62 +2362,62 @@ function changeContent(clickedElement) {
     <body>
             <div id="big-button">
                 <div id="portal" onclick="portal()">
-                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:30px; width:30px;border-radius:15px; background-color:white;">
-                        <img style="position: absolute;width:21px; left:4px; top:7px;" src="portal.png">
+                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:35px; width:35px;border-radius:25px; background-color:white;">
+                        <img style="position: absolute;width:21px; left:6.75px; top:9.5px;" src="portal.png">
                     </div>
-                    <p style="position:absolute; top:40px;left:10px; font-family:'pretendard-medium'; color:white; font-size:18px;">연세포털</p>
-                    <p style="position:absolute; top:70px;left:10px;font-family:'pretendard-light'; color:#A3C2EB;  font-size:11px;">YONSEI PORTAL</p>
-                    <div style="position:absolute; bottom:15px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
+                    <p style="position:absolute; top:45px;left:10px; font-family:'pretendard-sb'; color:white; letter-spacing:-1px; font-size:18px;">연세포털</p>
+                    <p style="position:absolute; top:79px;left:10px;font-family:'pretendard-medium'; color:#A3C2EB;  font-size:11px;">YONSEI PORTAL</p>
+                    <div style="position:absolute; bottom:10px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
                         <img style="position: absolute;width:17px; left:6px; top:7px;" src="arrow-site.png">
                     </div>
                 </div>
                 <div id="mail" onclick="mail()">
-                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:30px; width:30px;border-radius:15px; background-color:white;">
-                        <img style="position: absolute;width:17px; left:6px; top:8px;" src="mail.png">
+                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:35px; width:35px;border-radius:25px; background-color:white;">
+                        <img style="position: absolute;width:17px; left:8.6px; top:10px;" src="mail.png">
                     </div>
-                    <p style="position:absolute; top:40px;left:10px; font-family:'pretendard-medium'; color:white; font-size:18px;">웹메일</p>
-                    <p style="position:absolute; top:70px;left:10px;font-family:'pretendard-light'; color:#A3C2EB;  font-size:11px;">YONSEI MAIL</p>
-                    <div style="position:absolute; bottom:15px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
+                    <p style="position:absolute; top:45px;left:10px; font-family:'pretendard-sb'; color:white; letter-spacing:-1px;font-size:18px;">웹메일</p>
+                    <p style="position:absolute; top:79px;left:10px;font-family:'pretendardmediumt'; color:#A3C2EB;  font-size:11px;">YONSEI MAIL</p>
+                    <div style="position:absolute; bottom:10px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
                         <img style="position: absolute;width:17px; left:6px; top:7px;" src="arrow-site.png">
                     </div>
                 </div>
                 <div id="sports" onclick="sports()">
-                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:30px; width:30px;border-radius:15px; background-color:white;">
-                        <img style="position: absolute;width:21px; left:4px; top:7px;" src="sports.png">
+                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:35px; width:35px;border-radius:25px; background-color:white;">
+                        <img style="position: absolute;width:21px; left:6.6px; top:10px;" src="sports.png">
                     </div>
-                    <p style="position:absolute; top:40px;left:10px; font-family:'pretendard-medium'; color:white; font-size:18px;">스포츠센터</p>
-                    <p style="position:absolute; top:70px;left:10px;font-family:'pretendard-light'; color:#A3C2EB;  font-size:11px;">SPORTS CENTER</p>
-                    <div style="position:absolute; bottom:15px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
+                    <p style="position:absolute; top:45px;left:10px; font-family:'pretendard-sb'; color:white; letter-spacing:-1px;font-size:18px;">스포츠센터</p>
+                    <p style="position:absolute; top:79px;left:10px;font-family:'pretendard-medium'; color:#A3C2EB;  font-size:11px;">SPORTS CENTER</p>
+                    <div style="position:absolute; bottom:10px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
                         <img style="position: absolute;width:17px; left:6px; top:7px;" src="arrow-site.png">
                     </div>
                 </div>
                 <div id="house" onclick="house()">
-                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:30px; width:30px;border-radius:15px; background-color:white;">
-                        <img style="position: absolute;width:17px; left:6px; top:10px;" src="house.png">
+                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:35px; width:35px;border-radius:25px; background-color:white;">
+                        <img style="position: absolute;width:17px; left:8.1px; top:11.5px;" src="house.png">
                     </div>
-                    <p style="position:absolute; top:40px;left:10px; font-family:'pretendard-medium'; color:white; font-size:18px;">원주생활관</p>
-                    <p style="position:absolute; top:70px;left:10px;font-family:'pretendard-light'; color:#A3C2EB;  font-size:11px;">HOUSING OFFICE</p>
-                    <div style="position:absolute; bottom:15px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
+                    <p style="position:absolute; top:45px;left:10px; font-family:'pretendard-sb'; color:white; letter-spacing:-1px;font-size:18px;">원주생활관</p>
+                    <p style="position:absolute; top:79px;left:10px;font-family:'pretendard-medium'; color:#A3C2EB;  font-size:11px;">HOUSING OFFICE</p>
+                    <div style="position:absolute; bottom:10px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
                         <img style="position: absolute;width:17px; left:6px; top:7px;" src="arrow-site.png">
                     </div>
                 </div>
                 <div id="facility" onclick="facility()">
-                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:30px; width:30px;border-radius:15px; background-color:white;">
-                        <img style="position: absolute;width:15px; left:7px; top:6px;" src="facility.png">
+                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:35px; width:35px;border-radius:25px; background-color:white;">
+                        <img style="position: absolute;width:15px; left:9.5px; top:8px;" src="facility.png">
                     </div>
-                    <p style="position:absolute; top:40px;left:10px; font-family:'pretendard-medium'; color:white; font-size:18px;">공간대관시스템</p>
-                    <p style="position:absolute; top:70px;left:10px;font-family:'pretendard-light'; color:#C8C8C8;  font-size:11px;">FACILITY RENT</p>
-                    <div style="position:absolute; bottom:15px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
+                    <p style="position:absolute; top:45px;left:10px; font-family:'pretendard-sb'; color:white; letter-spacing:-1px;font-size:18px;">공간대관시스템</p>
+                    <p style="position:absolute; top:79px;left:10px;font-family:'pretendard-medium'; color:#C8C8C8;  font-size:11px;">FACILITY RENT</p>
+                    <div style="position:absolute; bottom:10px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
                         <img style="position: absolute;width:17px; filter:brightness(20%); left:6px; top:7px;" src="arrow-site.png">
                     </div>
                 </div>
                 <div id="bus" onclick="bus()">
-                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:30px; width:30px;border-radius:15px; background-color:white;">
-                        <img style="position: absolute;width:17px; left:6px; top:5px;" src="bus.png">
+                    <div style="position:absolute; top:15px; align-items:center; left:10px; height:35px; width:35px;border-radius:25px; background-color:white;">
+                        <img style="position: absolute;width:17px; left:8.3px; top:6.8px;" src="bus.png">
                     </div>
-                    <p style="position:absolute; top:40px;left:10px; font-family:'pretendard-medium'; color:white; font-size:18px;">버스예약시스템</p>
-                    <p style="position:absolute; top:70px;left:10px;font-family:'pretendard-light'; color:#C8C8C8;  font-size:11px;">BUS RESERVATION</p>
-                    <div style="position:absolute; bottom:15px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
+                    <p style="position:absolute; top:45px;left:10px; font-family:'pretendard-sb'; color:white; letter-spacing:-1px;font-size:18px;">버스예약시스템</p>
+                    <p style="position:absolute; top:79px;left:10px;font-family:'pretendard-medium'; color:#C8C8C8;  font-size:11px;">BUS RESERVATION</p>
+                    <div style="position:absolute; bottom:10px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
                         <img style="position: absolute;width:17px; filter:brightness(20%); left:6px; top:7px;" src="arrow-site.png">
                     </div>
                 </div>
