@@ -2245,17 +2245,17 @@ function changeContent(clickedElement) {
                           <p>누리샘</p>
                           <p>구내서점</p>
                       </div>
-                      <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:270px;">
-                          <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
-                              편의시설
-                          </div>
-                          <p>POD센터</p>
-                          <p>유니룩스(빨래방)</p>
-                          <p>구내안경원</p>
-                          <p>우리은행</p>
-                          <p>우편취급국</p>
-                          <p>GS25</p>
-                      </div>
+                      <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; display:flex; font-family:  'pretendard-light'; top:270px;">
+                        <div style="font-family:'pretendard-sb'; width:100%; height:30px; display:block; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
+                            편의시설
+                        </div>
+                        <p style="position:absolute;width:50%; top:30px;left:0px;">POD센터</p>
+                        <p style="position:absolute;width:50%; top:30px;right:0px;">유니룩스(빨래방)</p>
+                        <p style="position:absolute;width:50%; top:70px;left:0px;">구내안경원</p>
+                        <p style="position:absolute;width:50%; top:70px; right:0px;">우리은행</p>
+                        <p style="position:absolute;width:50%; top:110px; left:0px;">우편취급국</p>
+                        <p style="position:absolute;width:50%; top:110px; right:0px;">GS25</p>
+                    </div>
                   </div>
                   <img src="plaza-img.png">
                   <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">연세플라자</p>
