@@ -2220,7 +2220,7 @@ function changeContent(clickedElement) {
       newText = `
       <p id="facility-title">편의시설</p>
       <div id="main-plaza">
-          <div id="plaza-img">
+          <div id="plaza-img" onclick="plaza()">
                   <div id="plaza-list" style="display: flex;">
                       <div style="position:absolute; font-size:14px; margin:5px; width:40%; left:30px; font-family:  'pretendard-light'; top:60px;">
                           <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
@@ -2259,11 +2259,11 @@ function changeContent(clickedElement) {
                   </div>
                   <img src="plaza-img.png">
                   <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">연세플라자</p>
-                  <button id="down-arrow-plaza" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="plaza()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
+                  <button id="down-arrow-plaza" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" ><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
               </div>
       </div>
       <div id="main-union">
-          <div id="union-img" >
+          <div id="union-img" onclick="union()">
               <div id="union-list" style="display: flex;">
                   <div style="position:absolute; font-size:14px; margin:5px; width:40%; left:30px; font-family:  'pretendard-light'; top:60px;">
                       <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
@@ -2291,11 +2291,11 @@ function changeContent(clickedElement) {
               </div>
               <img src="union-img.png">
               <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">학생회관</p>
-              <button id="down-arrow-union" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="union()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
+              <button id="down-arrow-union" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
           </div>
       </div>
       <div id="main-cy">
-          <div id="cy-img" >
+          <div id="cy-img" onclick="cy()">
               <div id="cy-list" style="display: flex;">
                   <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:60px;">
                       <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
@@ -2306,11 +2306,11 @@ function changeContent(clickedElement) {
               </div>
               <img src="cy-img.png">
               <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">청연학사</p>
-              <button id="down-arrow-cy" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="cy()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
+              <button id="down-arrow-cy" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
           </div>
       </div>
       <div id="main-jung">
-          <div id="jung-img" >
+          <div id="jung-img" onclick="jung()">
               <div id="jung-list" style="display: flex;">
                   <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:60px;">
                       <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
@@ -2321,11 +2321,11 @@ function changeContent(clickedElement) {
               </div>
               <img src="jung-img.png">
               <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">정의관</p>
-              <button id="down-arrow-jung" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="jung()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
+              <button id="down-arrow-jung" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
           </div>
       </div>
       <div id="main-baek">
-          <div id="baek-img" >
+          <div id="baek-img" onclick="baek()">
               <div id="baek-list" style="display: flex;">
                   <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:60px;">
                       <div style="font-family: 'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
@@ -2336,7 +2336,7 @@ function changeContent(clickedElement) {
               </div>
               <img src="baek-img.png">
               <p style="position: absolute; color:white; bottom:0px; left:25px; font-size:23px; font-family:pretendard-medium;">백운관</p>
-              <button id="down-arrow-baek" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;" onclick="baek()"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
+              <button id="down-arrow-baek" style="position:absolute; bottom:15px; right:15px; width:30px; height:30px; border-radius:15px; background-color: none; border:none;"><img style="position:absolute; left:6px; top:10px; width: 17px; height:11px;"  src="down-arrow.png"></button>
           </div>
       </div>`;
       break;
