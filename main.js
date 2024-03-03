@@ -1794,13 +1794,13 @@ let keyframes2 = [
   function plaza() {
     var div = document.getElementById('plaza-list');
     var main_div = document.getElementById('main-plaza');
-    if (div.style.height === '530px') {
+    if (div.style.height === '460px') {
         document.getElementById('down-arrow-plaza').style.transform='rotate(360deg)'; 
         div.style.height = '0px';
         main_div.style.height = '140px'
     } else { // 확장되지 않은 상태라면 확장하고 요소 보임
-      div.style.height = '530px';
-      main_div.style.height = '640px'
+      div.style.height = '460px';
+      main_div.style.height = '590px'
       document.getElementById('down-arrow-plaza').style.transform='rotate(180deg)'; 
     }
   }
@@ -2385,7 +2385,7 @@ function changeContent(clickedElement) {
                         <img style="position: absolute;width:17px; left:8.6px; top:10px;" src="mail.png">
                     </div>
                     <p style="position:absolute; top:45px;left:10px; font-family:'pretendard-sb'; color:white; letter-spacing:-1px;font-size:18px;">웹메일</p>
-                    <p style="position:absolute; top:79px;left:10px;font-family:'pretendardmediumt'; color:#A3C2EB;  font-size:11px;">YONSEI MAIL</p>
+                    <p style="position:absolute; top:79px;left:10px;font-family:'pretendard-medium'; color:#A3C2EB;  font-size:11px;">YONSEI MAIL</p>
                     <div style="position:absolute; bottom:10px; align-items:center; right:10px; height:30px; width:30px;border-radius:15px; background-color:#E8E8ED;">
                         <img style="position: absolute;width:17px; left:6px; top:7px;" src="arrow-site.png">
                     </div>
