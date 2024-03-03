@@ -2438,7 +2438,7 @@ function changeContent(clickedElement) {
       <div id="support-header" style=" height:300px;border-radius: 0px 0px 20px 20px; background-color:#21252C;" >
         <p id="support-title">지원 및 문의</p>
         <div style="position:absolute; top:210px;width: 90%; background-color:white; left:50%; transform:translate(-50%,0); height:65px; border-radius:15px; display:flex; text-decoration:none; align-items:center;">
-            <img style="position:relative; margin-left:10px; top:-1px; width: 20px; margin-right:5px;" src="headphone.png">
+            <img style="position:relative; margin-left:15px; top:-1px; width: 20px; margin-right:5px;" src="headphone.png">
             <span style="color:#21252C; font-family:'pretendard-medium';">피드백, 불만사항, 관련문의를 받고 있어요.</span>
         </div>
     </div>
@@ -2449,7 +2449,7 @@ function changeContent(clickedElement) {
     </div>
     <div style="position: relative; width:90%; background-color:white; height:300px; left:50%; transform:translate(-50%,0); top:60px; border-radius:15px;">
         <img src="mail.png" style="position:absolute; top: 30px;left: 25px;; width: 32px;">
-        <p style="position: absolute; top:50px; left:21px; font-family:pretendard-sb; color:#003378; font-size:23px;">이메일 문의</p>
+        <p style="position: absolute; top:50px; left:21px; font-family:pretendard-sb; color:#003378; font-size:23px;">이메일 문의</p>
         <div style="position:absolute;bottom:90px; border-bottom:1px #E5E5E5 solid; left:50%; transform:translate(-50%,0); height:70px; width: 88%;">
             <p style="position: absolute; font-family:pretendard-sb; color:#212121; left:0px;">개발 및 운영</p>
             <p style="position: absolute; font-family:pretendard-regular; color:#333D4B;right:0px;">23 의공학부 배진우</p>
