@@ -2278,7 +2278,6 @@ function changeContent(clickedElement) {
                         카페/디저트
                     </div>
                     <p onclick="sub17()" >카페 GEE</p>
-                    <p onclick="sub16()">행복한 달팽이</p>
                     <p onclick="sub18()">AWAKE BREAD</p>
                 </div>
                 <div style="position:absolute; font-size:14px; margin:5px; width:40%; right:15px; font-family:  'pretendard-light'; top:60px;">
@@ -2287,7 +2286,7 @@ function changeContent(clickedElement) {
                     </div>
                     <p onclick="sub15()">카페테리아 현</p>
                 </div>
-                <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:210px;">
+                <div style="position:absolute; font-size:14px; margin:5px; width:80%; left:30px; font-family:  'pretendard-light'; top:185px;">
                     <div style="font-family:'pretendard-sb'; height:30px; color:#333D4B; border-bottom:1px solid #E5E5E5; ">
                         편의시설
                     </div>
