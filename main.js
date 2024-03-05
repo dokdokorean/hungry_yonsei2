@@ -2116,13 +2116,13 @@ function changeContent(clickedElement) {
                                 <div id="mor-runtime">
                                     <p id="mor-runtime1">운영시간</p>
                                     <p id="mor-runtime-line"></p>
-                                    <p id="mor-runtime-time"></p>
+                                    <p id="mor-runtime-time">오전 8시 ~ 9시 반</p>
                                 </div>
                                 <div id="mor-optime">
                                     <p id="mor-optime1">운영일정</p>
                                     <p id="mor-optime-line"></p>
-                                    <p id="mor-optime-time1"></p>
-                                    <p id="mor-optime-time2"></p>
+                                    <p id="mor-optime-time1">2024학년도 1학기</p>
+                                    <p id="mor-optime-time2">(주말,방학제외)</p>
                                 </div>
                             </div>
                             <div class="tue1">
@@ -2136,13 +2136,13 @@ function changeContent(clickedElement) {
                                 <div id="mor-runtime">
                                     <p id="mor-runtime1">운영시간</p>
                                     <p id="mor-runtime-line"></p>
-                                    <p id="mor-runtime-time"></p>
+                                    <p id="mor-runtime-time">오전 8시 ~ 9시 반</p>
                                 </div>
                                 <div id="mor-optime">
                                     <p id="mor-optime1">운영일정</p>
                                     <p id="mor-optime-line"></p>
-                                    <p id="mor-optime-time1"></p>
-                                    <p id="mor-optime-time2"></p>
+                                    <p id="mor-optime-time1">2024학년도 1학기</p>
+                                    <p id="mor-optime-time2">(주말,방학제외)</p>
                                 </div>
                             </div>
                             <div class="wed1">
@@ -2156,13 +2156,13 @@ function changeContent(clickedElement) {
                                 <div id="mor-runtime">
                                     <p id="mor-runtime1">운영시간</p>
                                     <p id="mor-runtime-line"></p>
-                                    <p id="mor-runtime-time"></p>
+                                    <p id="mor-runtime-time">오전 8시 ~ 9시 반</p>
                                 </div>
                                 <div id="mor-optime">
                                     <p id="mor-optime1">운영일정</p>
                                     <p id="mor-optime-line"></p>
-                                    <p id="mor-optime-time1"></p>
-                                    <p id="mor-optime-time2"></p>
+                                    <p id="mor-optime-time1">2024학년도 1학기</p>
+                                    <p id="mor-optime-time2">(주말,방학제외)</p>
                                 </div>
                             </div>
                             <div class="thur1">
@@ -2176,13 +2176,13 @@ function changeContent(clickedElement) {
                                 <div id="mor-runtime">
                                     <p id="mor-runtime1">운영시간</p>
                                     <p id="mor-runtime-line"></p>
-                                    <p id="mor-runtime-time"></p>
+                                    <p id="mor-runtime-time">오전 8시 ~ 9시 반</p>
                                 </div>
                                 <div id="mor-optime">
                                     <p id="mor-optime1">운영일정</p>
                                     <p id="mor-optime-line"></p>
-                                    <p id="mor-optime-time1"></p>
-                                    <p id="mor-optime-time2"></p>
+                                    <p id="mor-optime-time1">2024학년도 1학기</p>
+                                    <p id="mor-optime-time2">(주말,방학제외)</p>
                                 </div>
                             </div>
                             <div class="fri1">
@@ -2196,13 +2196,13 @@ function changeContent(clickedElement) {
                                 <div id="mor-runtime">
                                     <p id="mor-runtime1">운영시간</p>
                                     <p id="mor-runtime-line"></p>
-                                    <p id="mor-runtime-time"></p>
+                                    <p id="mor-runtime-time">오전 8시 ~ 9시 반</p>
                                 </div>
                                 <div id="mor-optime">
                                     <p id="mor-optime1">운영일정</p>
                                     <p id="mor-optime-line"></p>
-                                    <p id="mor-optime-time1"></p>
-                                    <p id="mor-optime-time2"></p>
+                                    <p id="mor-optime-time1">2024학년도 1학기</p>
+                                    <p id="mor-optime-time2">(주말,방학제외)</p>
                                 </div>
                             </div>
                             <div class="sat1">
