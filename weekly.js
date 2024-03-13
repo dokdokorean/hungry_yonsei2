@@ -142,6 +142,13 @@ document.getElementById('f-menu2-thur').innerText=''//메뉴
 document.getElementById('f-menu3-thur').innerText=''//가격
 
 //금요일
+//천원의 아침
+document.getElementById('mor-fri-menu1').innerText='업체측에서'
+document.getElementById('mor-fri-menu2').innerText='제공하지'
+document.getElementById('mor-fri-menu3').innerText='않았습니다.'
+
+
+//중식메뉴
 document.getElementById('k-menu2-fri').innerText='-'//메뉴
 document.getElementById('k-menu3-fri').innerText=''//가격
 
@@ -156,12 +163,15 @@ document.getElementById('b-menu3-fri').innerText='7,000'//가격
 //점심메뉴 4번
 document.getElementById('c-menu2-fri').innerText=''//메뉴
 document.getElementById('c-menu3-fri').innerText=''//가격
+
 //점심메뉴 5번 
 document.getElementById('d-menu2-fri').innerText=''//메뉴
 document.getElementById('d-menu3-fri').innerText=''//가격
+
 //점심메뉴 6번
 document.getElementById('e-menu2-fri').innerText=''//메뉴
 document.getElementById('e-menu3-fri').innerText=''//가격
+
 //점심메뉴 7번 
 document.getElementById('f-menu2-fri').innerText=''//메뉴
 document.getElementById('f-menu3-fri').innerText=''//가격
