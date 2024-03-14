@@ -1856,6 +1856,20 @@ let keyframes2 = [
       document.getElementById('down-arrow-baek').style.transform='rotate(180deg)'; 
     }
   }
+  var mentchange_var = 1
+  function mentchange(){
+      if (mentchange_var == '0') {
+          document.getElementById('notice').innerText = '식자재 수급상황에 따라 메뉴가 변경될 수 있어요.'
+          console.log=mentchange_var
+          mentchange_var+=1;
+      }
+      else{
+          document.getElementById('notice').innerText = '매주 일요일에 메뉴가 업데이트 돼요.'
+          console.log=mentchange_var
+          mentchange_var-=1;
+      }
+  }
+  setInterval(() => mentchange(),10000);
 function changeContent(clickedElement) {
   var content = document.getElementById("content");
   var newText;
@@ -1867,7 +1881,7 @@ function changeContent(clickedElement) {
             <p id="title2">화이팅하세요!</p>
             <div style="position:absolute; top:210px;width: 90%; background-color:white; left:50%; transform:translate(-50%,0); height:65px; border-radius:15px; display:flex; text-decoration:none; align-items:center;">
                 <img style="position:relative; margin-left:10px; top:-1px; width: 20px; margin-right:5px;" src="speaker.png">
-                <span style="color:#21252C; font-size:14px; font-family:'pretendard-medium';">식자재 수급상황에 따라 메뉴가 변경될 수 있어요.</span>
+                <span id="notice" style="color:#21252C; font-size:14px; font-family:'pretendard-medium';">식자재 수급상황에 따라 메뉴가 변경될 수 있어요.</span>
             </div>
             <img id="reload" onclick="reload1()" src="reload.png">
         </header> 
