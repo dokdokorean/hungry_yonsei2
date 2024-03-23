@@ -58,7 +58,7 @@ document.getElementById('c-menu2-tue').innerText='고추참치마요덮밥'//메
 document.getElementById('c-menu3-tue').innerText=''//가격
 
 //점심메뉴 5번 
-document.getElementById('d-menu2-tue').innerText='후랑크갈릭볶음밥+후라이'//메뉴
+document.getElementById('d-menu2-tue').innerText='후랑크갈릭볶음밥'//메뉴
 document.getElementById('d-menu3-tue').innerText=''//가격
 
 //점심메뉴 6번 
