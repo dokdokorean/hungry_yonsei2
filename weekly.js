@@ -36,9 +36,9 @@ document.getElementById('f-menu3-mon').innerText=''//가격
 //화요일
 
 //천원의 아침
-document.getElementById('mor-tue-menu1').innerText='업로드 예정'
-document.getElementById('mor-tue-menu2').innerText='(업체측에서'
-document.getElementById('mor-tue-menu3').innerText='전달 받지 못함)'
+document.getElementById('mor-tue-menu1').innerText='돼지고기숙주볶음'
+document.getElementById('mor-tue-menu2').innerText='꽃맛살메추리알샐러드'
+document.getElementById('mor-tue-menu3').innerText='식빵, 잼, 후라이'
 
 
 //중식특식
@@ -72,9 +72,9 @@ document.getElementById('f-menu3-tue').innerText=''//가격
 //수요일
 
 //천원의 아침
-document.getElementById('mor-wed-menu1').innerText='업로드 예정'
-document.getElementById('mor-wed-menu2').innerText='(업체측에서'
-document.getElementById('mor-wed-menu3').innerText='전달 받지 못함)'
+document.getElementById('mor-wed-menu1').innerText='된장찌개'
+document.getElementById('mor-wed-menu2').innerText='마늘간장떡갈비조림'
+document.getElementById('mor-wed-menu3').innerText='설탕건빵튀김'
 
 
 //중식
@@ -108,9 +108,9 @@ document.getElementById('f-menu3-wed').innerText=''//가격
 //목요일
 
 //천원의 아침
-document.getElementById('mor-thur-menu1').innerText='업로드 예정'
-document.getElementById('mor-thur-menu2').innerText='(업체측에서'
-document.getElementById('mor-thur-menu3').innerText='전달 받지 못함)'
+document.getElementById('mor-thur-menu1').innerText='미역된장국'
+document.getElementById('mor-thur-menu2').innerText='스팸돈부리'
+document.getElementById('mor-thur-menu3').innerText='순두부*양념장'
 
 
 //중식메뉴
@@ -143,9 +143,9 @@ document.getElementById('f-menu3-thur').innerText=''//가격
 
 //금요일
 //천원의 아침
-document.getElementById('mor-fri-menu1').innerText='업로드 예정'
-document.getElementById('mor-fri-menu2').innerText='(업체측에서'
-document.getElementById('mor-fri-menu3').innerText='전달 받지 못함)'
+document.getElementById('mor-fri-menu1').innerText='비지찌개'
+document.getElementById('mor-fri-menu2').innerText='햄감자채볶음'
+document.getElementById('mor-fri-menu3').innerText='알새우칩'
 
 
 //중식메뉴
