@@ -116,17 +116,17 @@ else if(day1==0){
         document.getElementById('main2-2-1-1').style.color="#4D4D4D"
         document.getElementById('main2-2-1-2').style.color="#4D4D4D"
 
-        document.getElementById('main2-2-2-1').style.fontFamily="Pretendard-sb"
-        document.getElementById('main2-2-2-2').style.fontFamily="Pretendard-sb"
+        document.getElementById('main2-2-2-1').style.fontFamily="Pretendard-medium"
+        document.getElementById('main2-2-2-2').style.fontFamily="Pretendard-light"
 
-        document.getElementById('main2-2-2-1').style.color="#34C759"
-        document.getElementById('main2-2-2-2').style.color="#34C759"
+        document.getElementById('main2-2-2-1').style.color="#4D4D4D"
+        document.getElementById('main2-2-2-2').style.color="#4D4D4D"
 
-        document.getElementById('main2-2-3-1').style.fontFamily="Pretendard-medium"
-        document.getElementById('main2-2-3-2').style.fontFamily="Pretendard-light"
+        document.getElementById('main2-2-3-1').style.fontFamily="Pretendard-sb"
+        document.getElementById('main2-2-3-2').style.fontFamily="Pretendard-sb"
 
-        document.getElementById('main2-2-3-1').style.color="#4D4D4D"
-        document.getElementById('main2-2-3-2').style.color="#4D4D4D"
+        document.getElementById('main2-2-3-1').style.color="#34C759"
+        document.getElementById('main2-2-3-2').style.color="#34C759"
         }
     else{
         document.getElementById('close').style.visibility="visible"
@@ -138,14 +138,14 @@ else if(day1==0){
         document.getElementById('main2-2-1-1').style.color="#4D4D4D"
         document.getElementById('main2-2-1-2').style.color="#4D4D4D"
 
-        document.getElementById('main2-2-2-1').style.fontFamily="Pretendard-sb"
-        document.getElementById('main2-2-2-2').style.fontFamily="Pretendard-sb"
+        document.getElementById('main2-2-2-1').style.fontFamily="Pretendard-meidum"
+        document.getElementById('main2-2-2-2').style.fontFamily="Pretendard-light"
 
         document.getElementById('main2-2-2-1').style.color="#4D4D4D"
         document.getElementById('main2-2-2-2').style.color="#4D4D4D"
 
-        document.getElementById('main2-2-3-1').style.fontFamily="Pretendard-medium"
-        document.getElementById('main2-2-3-2').style.fontFamily="Pretendard-light"
+        document.getElementById('main2-2-3-1').style.fontFamily="Pretendard-sb"
+        document.getElementById('main2-2-3-2').style.fontFamily="Pretendard-sb"
 
         document.getElementById('main2-2-3-1').style.color="#FF453A"
         document.getElementById('main2-2-3-2').style.color="#FF453A"
