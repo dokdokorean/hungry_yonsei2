@@ -1864,7 +1864,7 @@ let keyframes2 = [
           mentchange_var+=1;
       }
       else{
-          document.getElementById('notice').innerText = '모두들 중간고사 화이팅하세요!'//매주 일요일에 메뉴가 업데이트 돼요.
+          document.getElementById('notice').innerText = '매주 일요일에 메뉴가 업데이트 돼요.'
           console.log=mentchange_var
           mentchange_var-=1;
       }
