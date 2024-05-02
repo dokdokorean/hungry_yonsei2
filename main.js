@@ -2456,20 +2456,20 @@ function changeContent(clickedElement) {
         <p style="position: absolute; font-family:'pretendard-sb'; font-size:20px; color:#000000;left: 25px;; top:55px;">카카오톡 플러스친구</p>
         <p style="position: absolute; font-family:'pretendard-regular'; font-size:13px; color:#604C14;left: 25px;; top:95px;">카카오톡 검색창에 <span style="font-family:'pretendard-sb';">연세대 학식모지</span> 검색하기</p>
     </div>
-    <div style="position: relative; width:90%; background-color:white; height:430px; left:50%; transform:translate(-50%,0); top:60px; border-radius:15px;">
+    <div style="position: relative; width:90%; background-color:white; height:370px; left:50%; transform:translate(-50%,0); top:60px; border-radius:15px;">
         <img src="mail.png" style="position:absolute; top: 30px;left: 25px;; width: 32px;">
-        <div style="position:absolute;bottom:217px; border-bottom:1px #E5E5E5 solid; left:50%; transform:translate(-50%,0); height:70px; width: 88%;">
+        <div style="position:absolute;bottom:147px; border-bottom:1px #E5E5E5 solid; left:50%; transform:translate(-50%,0); height:70px; width: 88%;">
           <p style="position: absolute; font-family:pretendard-sb; color:#212121; left:0px;">개발 및 운영 총괄</p>
           <p style="position: absolute; font-family:pretendard-regular; font-size:14px; top:2px; color:#333D4B;right:0px;">23 의공학부 배진우</p>
           <p style="position: absolute; font-family:pretendard-regular; font-size:14px; color:#333D4B;bottom:-5px; right:0px;">gravity0225@naver.com</p>
       </div>
-      <div style="position:absolute;bottom:147px; border-bottom:1px #E5E5E5 solid; left:50%; transform:translate(-50%,0); height:70px; width: 88%;">
+      <div style="position:absolute;bottom:77px; border-bottom:1px #E5E5E5 solid; left:50%; transform:translate(-50%,0); height:70px; width: 88%;">
         <p style="position: absolute; font-family:pretendard-sb; color:#212121; left:0px;">디자인</p>
         <p style="position: absolute; font-family:pretendard-regular; font-size:14px; top:2px; color:#333D4B;right:0px;">19 디자인예술학부 진기원</p>
         <p style="position: absolute; font-family:pretendard-regular; font-size:14px; color:#333D4B;bottom:-5px; right:0px;">jwon_822@yonsei.ac.kr</p>
     </div>
         <p style="position: absolute; top:50px; left:21px; font-family:pretendard-sb; color:#003378; font-size:23px;">이메일 문의</p>
-        <div style="position:absolute;bottom:77px; left:50%; transform:translate(-50%,0); height:70px; width: 88%;">
+        <div style="position:absolute;bottom:7px; left:50%; transform:translate(-50%,0); height:70px; width: 88%;">
             <p style="position: absolute; font-family:pretendard-sb; color:#212121; left:0px;">매장 및 외부 컨택 총괄</p>
             <p style="position: absolute; font-family:pretendard-regular; font-size:14px; top:2px; color:#333D4B;right:0px;">19 의공학부 손찬우</p>
             <p style="position: absolute; font-family:pretendard-regular; font-size:14px; color:#333D4B;bottom:-5px; right:0px;">sonsation7@yonsei.ac.kr</p>
