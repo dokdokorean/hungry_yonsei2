@@ -2469,15 +2469,10 @@ function changeContent(clickedElement) {
         <p style="position: absolute; font-family:pretendard-regular; font-size:14px; color:#333D4B;bottom:-5px; right:0px;">jwon_822@yonsei.ac.kr</p>
     </div>
         <p style="position: absolute; top:50px; left:21px; font-family:pretendard-sb; color:#003378; font-size:23px;">이메일 문의</p>
-        <div style="position:absolute;bottom:77px; border-bottom:1px #E5E5E5 solid; left:50%; transform:translate(-50%,0); height:70px; width: 88%;">
-            <p style="position: absolute; font-family:pretendard-sb; color:#212121; left:0px;">메뉴 업데이트</p>
-            <p style="position: absolute; font-family:pretendard-regular; font-size:14px; top:2px; color:#333D4B;right:0px;">23 화학및의화학전공 배유성</p>
-            <p style="position: absolute; font-family:pretendard-regular; font-size:14px; color:#333D4B;bottom:-5px; right:0px;">baeyousung0825@naver.com</p>
-        </div>
-        <div style="position:absolute;bottom:10px; left:50%; transform:translate(-50%,0); height:70px; width: 88%;">
-            <p style="position: absolute; font-family:pretendard-sb; color:#212121; left:0px;">홍보 및 외부 협력</p>
-            <p style="position: absolute; font-family:pretendard-regular; font-size:14px; top:2px; color:#333D4B;right:0px;">23 의공학부 김성민</p>
-            <p style="position: absolute; font-family:pretendard-regular; font-size:14px; color:#333D4B; bottom:0px; right:-2px;">smkgreg999@yonsei.ac.kr</p>
+        <div style="position:absolute;bottom:77px; left:50%; transform:translate(-50%,0); height:70px; width: 88%;">
+            <p style="position: absolute; font-family:pretendard-sb; color:#212121; left:0px;">매장 및 외부 컨택 총괄</p>
+            <p style="position: absolute; font-family:pretendard-regular; font-size:14px; top:2px; color:#333D4B;right:0px;">19 의공학부 손찬우</p>
+            <p style="position: absolute; font-family:pretendard-regular; font-size:14px; color:#333D4B;bottom:-5px; right:0px;">sonsation7@yonsei.ac.kr</p>
         </div>
     </div>       
       `;
