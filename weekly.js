@@ -42,7 +42,7 @@ document.getElementById('mor-tue-menu3').innerText='우거지국'
 
 
 //중식특식
-document.getElementById('k-menu2-tue').innerText='소고기미역국'//메뉴
+document.getElementById('k-menu2-tue').innerText='-'//메뉴
 document.getElementById('k-menu3-tue').innerText=''//가격
 
 //점심메뉴 2번 
@@ -62,7 +62,7 @@ document.getElementById('d-menu2-tue').innerText='부대덮밥'//메뉴
 document.getElementById('d-menu3-tue').innerText=''//가격
 
 //점심메뉴 6번 
-document.getElementById('e-menu2-tue').innerText=''//메뉴
+document.getElementById('e-menu2-tue').innerText='소고기미역국'//메뉴
 document.getElementById('e-menu3-tue').innerText=''//가격
 
 //점심메뉴 7번 
