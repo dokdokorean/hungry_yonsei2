@@ -27,11 +27,11 @@ document.getElementById('d-menu2-mon').innerText='감사합니다.'//메뉴
 document.getElementById('d-menu3-mon').innerText=''//가격
 
 //점심메뉴 6번 
-document.getElementById('e-menu2-mon').innerText=''//메뉴
+document.getElementById('e-menu2-mon').innerText='(방학중 매장 운영시간은'//메뉴
 document.getElementById('e-menu3-mon').innerText=''//가격
 
 //점심메뉴 7번
-document.getElementById('f-menu2-mon').innerText=''//메뉴
+document.getElementById('f-menu2-mon').innerText='올바르지 않을 수 있어요)'//메뉴
 document.getElementById('f-menu3-mon').innerText=''//가격
 
 //화요일
