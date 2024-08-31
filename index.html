@@ -37,7 +37,11 @@
                 <span id="notice" style="color:#21252C; font-size:14px; font-family:'pretendard-medium';">식자재 수급상황에 따라 메뉴가 변경될 수 있어요.</span>
             </div>
             <img id="reload" onclick="reload1()" src="reload.png">
-        </header>      
+        </header>
+        <div id="banner" onclick="banner()">
+            <img id="banner_left" src="banner1_left.png">
+            <img id="banner_right" src="banner1_right.png">
+        </div> 
         <div id="main">
             <div id="main-title">
                 <p id="main1">카페테리아 현</p>
@@ -74,7 +78,7 @@
                     <!--월요일-->
                     <div class="mon1">
                         <div id="baek-mon">
-                            <p id="menu1-mon">중 식</p>
+                            <p id="menu1-mon">반 찬</p>
                             <p id="k-menu2-mon">미역국</p>
                             <p id="k-menu3-mon">1,000원</p>
                         </div>
@@ -104,7 +108,7 @@
                             <p id="e-menu3-mon">7,000원</p>
                         </div>
                         <div id="f-menu-mon">
-                            <p id="menu1-mon">메뉴 6</p>
+                            <p id="menu1-mon">홀 국</p>
                             <p id="f-menu2-mon">일식카레,소시지&새우튀김</p>
                             <p id="f-menu3-mon">7,000원</p>
                         </div>
@@ -112,7 +116,7 @@
                     <!--화요일-->
                     <div class="tue1">
                         <div id="baek-tue">
-                            <p id="menu1-tue">중 식</p>
+                            <p id="menu1-tue">반 찬</p>
                             <p id="k-menu2-tue">미역국</p>
                             <p id="k-menu3-tue">1,000원</p>
                         </div>
@@ -142,7 +146,7 @@
                             <p id="e-menu3-tue">7,000원</p>
                         </div>
                         <div id="f-menu-tue">
-                            <p id="menu1-tue">메뉴 6</p>
+                            <p id="menu1-tue">홀 국</p>
                             <p id="f-menu2-tue">일식카레,소시지&새우튀김</p>
                             <p id="f-menu3-tue">7,000원</p>
                         </div>
@@ -150,7 +154,7 @@
 
                     <div class="wed1">
                         <div id="baek-wed">
-                            <p id="menu1-wed">중 식</p>
+                            <p id="menu1-wed">반 찬</p>
                             <p id="k-menu2-wed">미역국</p>
                             <p id="k-menu3-wed">1,000원</p>
                         </div>
@@ -180,7 +184,7 @@
                             <p id="e-menu3-wed">7,000원</p>
                         </div>
                         <div id="f-menu-wed">
-                            <p id="menu1-wed">메뉴 6</p>
+                            <p id="menu1-wed">홀 국</p>
                             <p id="f-menu2-wed">일식카레,소시지&새우튀김</p>
                             <p id="f-menu3-wed">7,000원</p>
                         </div>
@@ -188,7 +192,7 @@
 
                     <div class="thur1">
                         <div id="baek-thur">
-                            <p id="menu1-thur">중 식</p>
+                            <p id="menu1-thur">반 찬</p>
                             <p id="k-menu2-thur">미역국</p>
                             <p id="k-menu3-thur">1,000원</p>
                         </div>
@@ -218,7 +222,7 @@
                             <p id="e-menu3-thur">7,000원</p>
                         </div>
                         <div id="f-menu-thur">
-                            <p id="menu1-thur">메뉴 6</p>
+                            <p id="menu1-thur">홀 국</p>
                             <p id="f-menu2-thur">일식카레,소시지&새우튀김</p>
                             <p id="f-menu3-thur">7,000원</p>
                         </div>
@@ -226,7 +230,7 @@
 
                     <div class="fri1">
                         <div id="baek-fri">
-                            <p id="menu1-fri">중 식</p>
+                            <p id="menu1-fri">반 찬</p>
                             <p id="k-menu2-fri">미역국</p>
                             <p id="k-menu3-fri">1,000원</p>
                         </div>
@@ -256,7 +260,7 @@
                             <p id="e-menu3-fri">7,000원</p>
                         </div>
                         <div id="f-menu-fri">
-                            <p id="menu1-fri">메뉴 6</p>
+                            <p id="menu1-fri">홀 국</p>
                             <p id="f-menu2-fri">일식카레,소시지&새우튀김</p>
                             <p id="f-menu3-fri">7,000원</p>
                         </div>
@@ -288,7 +292,7 @@
                         <div id="mor-optime">
                             <p id="mor-optime1">운영일정</p>
                             <p id="mor-optime-line"></p>
-                            <p id="mor-optime-time1">2024학년도 1학기</p>
+                            <p id="mor-optime-time1">2024학년도 2학기</p>
                             <p id="mor-optime-time2">(주말,방학제외)</p>
                         </div>
                     </div>
@@ -308,7 +312,7 @@
                         <div id="mor-optime">
                             <p id="mor-optime1">운영일정</p>
                             <p id="mor-optime-line"></p>
-                            <p id="mor-optime-time1">2024학년도 1학기</p>
+                            <p id="mor-optime-time1">2024학년도 2학기</p>
                             <p id="mor-optime-time2">(주말,방학제외)</p>
                         </div>
                     </div>
@@ -328,7 +332,7 @@
                         <div id="mor-optime">
                             <p id="mor-optime1">운영일정</p>
                             <p id="mor-optime-line"></p>
-                            <p id="mor-optime-time1">2024학년도 1학기</p>
+                            <p id="mor-optime-time1">2024학년도 2학기</p>
                             <p id="mor-optime-time2">(주말,방학제외)</p>
                         </div>
                     </div>
@@ -348,7 +352,7 @@
                         <div id="mor-optime">
                             <p id="mor-optime1">운영일정</p>
                             <p id="mor-optime-line"></p>
-                            <p id="mor-optime-time1">2024학년도 1학기</p>
+                            <p id="mor-optime-time1">2024학년도 2학기</p>
                             <p id="mor-optime-time2">(주말,방학제외)</p>
                         </div>
                     </div>
@@ -368,7 +372,7 @@
                         <div id="mor-optime">
                             <p id="mor-optime1">운영일정</p>
                             <p id="mor-optime-line"></p>
-                            <p id="mor-optime-time1">2024학년도 1학기</p>
+                            <p id="mor-optime-time1">2024학년도 2학기</p>
                             <p id="mor-optime-time2">(주말,방학제외)</p>
                         </div>
                     </div>
