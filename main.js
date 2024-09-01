@@ -1959,7 +1959,7 @@ function changeContent(clickedElement) {
                         <div id="korea">
                         <div class="mon1">
                         <div id="baek-mon">
-                            <p id="menu1-mon">중 식</p>
+                            <p id="menu1-mon">반 찬</p>
                             <p id="k-menu2-mon">미역국</p>
                             <p id="k-menu3-mon">1,000원</p>
                         </div>
@@ -1989,7 +1989,7 @@ function changeContent(clickedElement) {
                             <p id="e-menu3-mon">7,000원</p>
                         </div>
                         <div id="f-menu-mon">
-                            <p id="menu1-mon">메뉴 6</p>
+                            <p id="menu1-mon">홀 국</p>
                             <p id="f-menu2-mon">일식카레,소시지&새우튀김</p>
                             <p id="f-menu3-mon">7,000원</p>
                         </div>
@@ -1997,7 +1997,7 @@ function changeContent(clickedElement) {
                     <!--화요일-->
                     <div class="tue1">
                         <div id="baek-tue">
-                            <p id="menu1-tue">중 식</p>
+                            <p id="menu1-tue">반 찬</p>
                             <p id="k-menu2-tue">미역국</p>
                             <p id="k-menu3-tue">1,000원</p>
                         </div>
@@ -2027,7 +2027,7 @@ function changeContent(clickedElement) {
                             <p id="e-menu3-tue">7,000원</p>
                         </div>
                         <div id="f-menu-tue">
-                            <p id="menu1-tue">메뉴 6</p>
+                            <p id="menu1-tue">홀 국</p>
                             <p id="f-menu2-tue">일식카레,소시지&새우튀김</p>
                             <p id="f-menu3-tue">7,000원</p>
                         </div>
@@ -2035,7 +2035,7 @@ function changeContent(clickedElement) {
 
                     <div class="wed1">
                         <div id="baek-wed">
-                            <p id="menu1-wed">중 식</p>
+                            <p id="menu1-wed">반 찬</p>
                             <p id="k-menu2-wed">미역국</p>
                             <p id="k-menu3-wed">1,000원</p>
                         </div>
@@ -2065,7 +2065,7 @@ function changeContent(clickedElement) {
                             <p id="e-menu3-wed">7,000원</p>
                         </div>
                         <div id="f-menu-wed">
-                            <p id="menu1-wed">메뉴 6</p>
+                            <p id="menu1-wed">홀 국</p>
                             <p id="f-menu2-wed">일식카레,소시지&새우튀김</p>
                             <p id="f-menu3-wed">7,000원</p>
                         </div>
@@ -2073,7 +2073,7 @@ function changeContent(clickedElement) {
 
                     <div class="thur1">
                         <div id="baek-thur">
-                            <p id="menu1-thur">중 식</p>
+                            <p id="menu1-thur">반 찬</p>
                             <p id="k-menu2-thur">미역국</p>
                             <p id="k-menu3-thur">1,000원</p>
                         </div>
@@ -2103,7 +2103,7 @@ function changeContent(clickedElement) {
                             <p id="e-menu3-thur">7,000원</p>
                         </div>
                         <div id="f-menu-thur">
-                            <p id="menu1-thur">메뉴 6</p>
+                            <p id="menu1-thur">홀 국</p>
                             <p id="f-menu2-thur">일식카레,소시지&새우튀김</p>
                             <p id="f-menu3-thur">7,000원</p>
                         </div>
@@ -2111,7 +2111,7 @@ function changeContent(clickedElement) {
 
                     <div class="fri1">
                         <div id="baek-fri">
-                            <p id="menu1-fri">중 식</p>
+                            <p id="menu1-fri">반 찬</p>
                             <p id="k-menu2-fri">미역국</p>
                             <p id="k-menu3-fri">1,000원</p>
                         </div>
@@ -2141,7 +2141,7 @@ function changeContent(clickedElement) {
                             <p id="e-menu3-fri">7,000원</p>
                         </div>
                         <div id="f-menu-fri">
-                            <p id="menu1-fri">메뉴 6</p>
+                            <p id="menu1-fri">홀 국</p>
                             <p id="f-menu2-fri">일식카레,소시지&새우튀김</p>
                             <p id="f-menu3-fri">7,000원</p>
                         </div>
