@@ -547,24 +547,45 @@ body{
 #mor-mon-menu1,#mor-tue-menu1,#mor-wed-menu1,#mor-thur-menu1,#mor-fri-menu1{
     position: relative;
     font-family: 'prertendard-sb';
-    font-size: 17px;
+    font-size: 15px;
     letter-spacing: -1px;
-    top: 40px;
+    top: 15px;
     color: #333D4B;
 }
 #mor-mon-menu2,#mor-tue-menu2,#mor-wed-menu2,#mor-thur-menu2,#mor-fri-menu2{
     position: relative;
     font-family: 'prertendard-sb';
     letter-spacing: -1px;
-    font-size: 17px;
-    top: 40px;
+    font-size: 15px;
+    top: 15px;
     color: #333D4B;
 }#mor-mon-menu3,#mor-tue-menu3,#mor-wed-menu3,#mor-thur-menu3,#mor-fri-menu3{
     position: relative;
     font-family: 'prertendard-sb';
     letter-spacing: -1px;
-    font-size: 17px;
-    top: 40px;
+    font-size: 15px;
+    top: 15px;
+    color: #333D4B;
+}#mor-mon-menu4,#mor-tue-menu4,#mor-wed-menu4,#mor-thur-menu4,#mor-fri-menu4{
+    position: relative;
+    font-family: 'prertendard-sb';
+    letter-spacing: -1px;
+    font-size: 15px;
+    top: 15px;
+    color: #333D4B;
+}#mor-mon-menu5,#mor-tue-menu5,#mor-wed-menu5,#mor-thur-menu5,#mor-fri-menu5{
+    position: relative;
+    font-family: 'prertendard-sb';
+    letter-spacing: -1px;
+    font-size: 15px;
+    top: 15px;
+    color: #333D4B;
+}#mor-mon-menu6,#mor-tue-menu6,#mor-wed-menu6,#mor-thur-menu6,#mor-fri-menu6{
+    position: relative;
+    font-family: 'prertendard-sb';
+    letter-spacing: -1px;
+    font-size: 15px;
+    top: 15px;
     color: #333D4B;
 }
 
