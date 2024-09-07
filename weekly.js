@@ -69,7 +69,7 @@ document.getElementById('d-menu2-tue').innerText='찹스테이크동'//메뉴
 document.getElementById('d-menu3-tue').innerText=''//가격
 
 //점심메뉴 6번 
-document.getElementById('e-menu2-tue').innerText='D메뉴 잔치국수'//메뉴
+document.getElementById('e-menu2-tue').innerText='잔치국수'//메뉴
 document.getElementById('e-menu3-tue').innerText=''//가격
 
 //점심메뉴 7번 
