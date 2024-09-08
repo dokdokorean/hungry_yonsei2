@@ -20,21 +20,6 @@ function randomNum(min, max){
     var randNum = Math.floor(Math.random()*(max-min+1)) + min;
     return randNum;
 }
-if (randomNum(1, 3) === 1) {
-    document.getElementById('banner_left').src = 'banner1_left.png';
-    document.getElementById('banner_right').src = 'banner1_right.png';
-    document.getElementById('banner').style.backgroundColor='#FE74EF'
-}
-else if (randomNum(1, 3) === 2) {
-    document.getElementById('banner_left').src = 'banner2_left.png';
-    document.getElementById('banner_right').src = 'banner2_right.png';
-    document.getElementById('banner').style.backgroundColor='#6439FE'
-}
-else if (randomNum(1, 3) === 3) {
-    document.getElementById('banner_left').src = 'banner3_left.png';
-    document.getElementById('banner_right').src = 'banner3_right.png';
-    document.getElementById('banner').style.backgroundColor='#E7EF44'
-}
 
 if (day1>0 && day1 <6 && hours>8 && hours <20){
     document.getElementById('open').style.visibility='visible'
@@ -660,21 +645,6 @@ else{
   document.getElementById('open').style.visibility='hidden'
 }
 
-if (randomNum(1, 3) === 1) {
-    document.getElementById('banner_left').src = 'banner1_left.png';
-    document.getElementById('banner_right').src = 'banner1_right.png';
-    document.getElementById('banner').style.backgroundColor='#FE74EF'
-}
-else if (randomNum(1, 3) === 2) {
-    document.getElementById('banner_left').src = 'banner2_left.png';
-    document.getElementById('banner_right').src = 'banner2_right.png';
-    document.getElementById('banner').style.backgroundColor='#6439FE'
-}
-else if (randomNum(1, 3) === 3) {
-    document.getElementById('banner_left').src = 'banner3_left.png';
-    document.getElementById('banner_right').src = 'banner3_right.png';
-    document.getElementById('banner').style.backgroundColor='#E7EF44'
-}
 
 if (day1 === 0) {
   if (randomNum(1,3)==1){
@@ -1756,10 +1726,7 @@ function facility(){
 function bus(){
   window.open('https://ysbusticket.yonsei.ac.kr/')
 }
-function banner(){
-  window.open('https://www.do-it.kr/recruit')
-}
-  
+
 function chinafunc(){
     document.getElementById('korean').style.color='#BBBBBB'
     document.getElementById('korean').style.backgroundColor='#fff'
@@ -1920,10 +1887,6 @@ function changeContent(clickedElement) {
             </div>
             <img id="reload" onclick="reload1()" src="reload.png">
         </header>
-        <div id="banner" onclick="banner()">
-            <img id="banner_left" src="banner1_left.png">
-            <img id="banner_right" src="banner1_right.png">
-        </div> 
                     <div id="main">
                     <div id="main-title">
                         <p id="main1">카페테리아 현</p>
