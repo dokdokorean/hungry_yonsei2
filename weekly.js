@@ -177,7 +177,7 @@ document.getElementById('b-menu2-fri').innerText='아쿠아돈까스'//메뉴
 document.getElementById('b-menu3-fri').innerText=''//가격
 
 //점심메뉴 4번
-document.getElementById('c-menu2-fri').innerText='D메뉴 부대덮밥'//메뉴
+document.getElementById('c-menu2-fri').innerText='부대덮밥'//메뉴
 document.getElementById('c-menu3-fri').innerText=''//가격
 
 //점심메뉴 5번 
