@@ -456,7 +456,7 @@ body{
 #k-menu2-mon,#k-menu2-tue,#k-menu2-wed,#k-menu2-thur,#k-menu2-fri,#a-menu2-mon,#a-menu2-tue,#a-menu2-wed,#a-menu2-thur,#a-menu2-fri,#b-menu2-mon,#b-menu2-tue,#b-menu2-wed,#b-menu2-thur,#b-menu2-fri,#c-menu2-mon,#c-menu2-tue,#c-menu2-wed,#c-menu2-thur,#c-menu2-fri,#d-menu2-mon,#d-menu2-tue,#d-menu2-wed,#d-menu2-thur,#d-menu2-fri,#e-menu2-mon,#e-menu2-tue,#e-menu2-wed,#e-menu2-thur,#e-menu2-fri,#f-menu2-mon,#f-menu2-tue,#f-menu2-wed,#f-menu2-thur,#f-menu2-fri{
     position: absolute;
     left: 80px;
-    width: 160px;
+    width: 200px;
     letter-spacing: -1px;
     font-size: 17px;
     font-family: 'Pretendard-Regular';
@@ -547,7 +547,7 @@ body{
 #mor-mon-menu1,#mor-tue-menu1,#mor-wed-menu1,#mor-thur-menu1,#mor-fri-menu1{
     position: relative;
     font-family: 'prertendard-sb';
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: -1px;
     top: 15px;
     color: #333D4B;
@@ -556,35 +556,35 @@ body{
     position: relative;
     font-family: 'prertendard-sb';
     letter-spacing: -1px;
-    font-size: 15px;
+    font-size: 14px;
     top: 15px;
     color: #333D4B;
 }#mor-mon-menu3,#mor-tue-menu3,#mor-wed-menu3,#mor-thur-menu3,#mor-fri-menu3{
     position: relative;
     font-family: 'prertendard-sb';
     letter-spacing: -1px;
-    font-size: 15px;
+    font-size: 14px;
     top: 15px;
     color: #333D4B;
 }#mor-mon-menu4,#mor-tue-menu4,#mor-wed-menu4,#mor-thur-menu4,#mor-fri-menu4{
     position: relative;
     font-family: 'prertendard-sb';
     letter-spacing: -1px;
-    font-size: 15px;
+    font-size: 14px;
     top: 15px;
     color: #333D4B;
 }#mor-mon-menu5,#mor-tue-menu5,#mor-wed-menu5,#mor-thur-menu5,#mor-fri-menu5{
     position: relative;
     font-family: 'prertendard-sb';
     letter-spacing: -1px;
-    font-size: 15px;
+    font-size: 14px;
     top: 15px;
     color: #333D4B;
 }#mor-mon-menu6,#mor-tue-menu6,#mor-wed-menu6,#mor-thur-menu6,#mor-fri-menu6{
     position: relative;
     font-family: 'prertendard-sb';
     letter-spacing: -1px;
-    font-size: 15px;
+    font-size: 14px;
     top: 15px;
     color: #333D4B;
 }
