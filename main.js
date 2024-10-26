@@ -1726,6 +1726,9 @@ function facility(){
 function bus(){
   window.open('https://ysbusticket.yonsei.ac.kr/')
 }
+function banner(){
+  window.open('https://veil-value-ae4.notion.site/7a20e6e093d94887a4b438fb3ec5c9e1')
+}
 
 function chinafunc(){
     document.getElementById('korean').style.color='#BBBBBB'
