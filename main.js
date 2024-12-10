@@ -1863,7 +1863,7 @@ let keyframes2 = [
   var mentchange_var = 1
   function mentchange(){
       if (mentchange_var == '0') {
-          document.getElementById('notice').innerText = '식자재 수급상황에 따라 메뉴가 변경될 수 있어요.'
+          document.getElementById('notice').innerText = '개발자의 입원 이슈로 메뉴 업데이트가 늦어진 점 양해부탁합니다ㅠ'
           console.log=mentchange_var
           mentchange_var+=1;
       }
