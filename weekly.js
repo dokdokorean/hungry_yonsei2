@@ -165,7 +165,7 @@ document.getElementById('mor-fri-menu6').innerText=''
 
 
 //반찬메뉴
-document.getElementById('k-menu2-fri').innerText=''//메뉴
+document.getElementById('k-menu2-fri').innerText='설 연휴 미운영'//메뉴
 document.getElementById('k-menu3-fri').innerText=''//가격
 
 //점심메뉴 2번 
