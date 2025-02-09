@@ -10,19 +10,19 @@ document.getElementById('mor-mon-menu5').innerText=''
 document.getElementById('mor-mon-menu6').innerText=''
 
 //반찬특식
-document.getElementById('k-menu2-mon').innerText='교자만두, 오징어무말랭이무침, 깍두기'//메뉴
+document.getElementById('k-menu2-mon').innerText='치킨너겟,샐러드,배추김치'//메뉴
 document.getElementById('k-menu3-mon').innerText=''//가격
 
 //점심메뉴 2번 
-document.getElementById('a-menu2-mon').innerText='B황태순두부국'//메뉴
+document.getElementById('a-menu2-mon').innerText='I순대국밥'//메뉴
 document.getElementById('a-menu3-mon').innerText=''//가격
 
 //점심메뉴 3번 
-document.getElementById('b-menu2-mon').innerText='C두부찌개'//메뉴
+document.getElementById('b-menu2-mon').innerText='D사골우거지해장국'//메뉴
 document.getElementById('b-menu3-mon').innerText=''//가격
 
 //점심메뉴 4번
-document.getElementById('c-menu2-mon').innerText='D일식카레'//메뉴
+document.getElementById('c-menu2-mon').innerText='J우삼겹숙주덮밥'//메뉴
 document.getElementById('c-menu3-mon').innerText=''//가격
 
 //점심메뉴 5번 
@@ -49,19 +49,19 @@ document.getElementById('mor-tue-menu6').innerText=''
 
 
 //반찬특식
-document.getElementById('k-menu2-tue').innerText='미니돈까스, 무말랭이무침, 배추김치'//메뉴
+document.getElementById('k-menu2-tue').innerText='마카로니샐러드,떡갈비,배추김치'//메뉴
 document.getElementById('k-menu3-tue').innerText=''//가격
 
 //점심메뉴 2번 
-document.getElementById('a-menu2-tue').innerText='B청국장찌개'//메뉴
+document.getElementById('a-menu2-tue').innerText='E해물순두부찌개'//메뉴
 document.getElementById('a-menu3-tue').innerText=''//가격
 
 //점심메뉴 3번 
-document.getElementById('b-menu2-tue').innerText='H제육덮밥'//메뉴
+document.getElementById('b-menu2-tue').innerText='F버터장조림덮밥'//메뉴
 document.getElementById('b-menu3-tue').innerText=''//가격
 
 //점심메뉴 4번
-document.getElementById('c-menu2-tue').innerText='G닭강정덮밥'//메뉴
+document.getElementById('c-menu2-tue').innerText='I김치볶음밥&감자핫도그'//메뉴
 document.getElementById('c-menu3-tue').innerText=''//가격
 
 //점심메뉴 5번 
@@ -88,19 +88,19 @@ document.getElementById('mor-wed-menu6').innerText=''
 
 
 //반찬
-document.getElementById('k-menu2-wed').innerText='떡갈비, 마늘쫑무침,깍두기'//메뉴
+document.getElementById('k-menu2-wed').innerText='동그랑땡, 무말랭이,깍두기'//메뉴
 document.getElementById('k-menu3-wed').innerText=''//가격
 
 //점심메뉴 2번 
-document.getElementById('a-menu2-wed').innerText='C소고기미역국'//메뉴
+document.getElementById('a-menu2-wed').innerText='E돼지고기김치찌개'//메뉴
 document.getElementById('a-menu3-wed').innerText=''//가격
 
 //점심메뉴 3번 
-document.getElementById('b-menu2-wed').innerText='E삼겹짜글이'//메뉴
+document.getElementById('b-menu2-wed').innerText='C홍합미역국'//메뉴
 document.getElementById('b-menu3-wed').innerText=''//가격
 
 //점심메뉴 4번
-document.getElementById('c-menu2-wed').innerText='H마파두부덮밥'//메뉴
+document.getElementById('c-menu2-wed').innerText='H일식카레&돈까스'//메뉴
 document.getElementById('c-menu3-wed').innerText=''//가격
 
 //점심메뉴 5번 
@@ -127,19 +127,19 @@ document.getElementById('mor-thur-menu6').innerText=''
 
 
 //반찬메뉴
-document.getElementById('k-menu2-thur').innerText='비엔나채소볶음,꼬들단무지무침 , 배추김치'//메뉴
+document.getElementById('k-menu2-thur').innerText='교자만두,도시락김, 배추김치'//메뉴
 document.getElementById('k-menu3-thur').innerText=''//가격
 
 //점심메뉴 2번 
-document.getElementById('a-menu2-thur').innerText='D부대찌개'//메뉴
+document.getElementById('a-menu2-thur').innerText='B황태콩나물국'//메뉴
 document.getElementById('a-menu3-thur').innerText=''//가격
 
 //점심메뉴 3번 
-document.getElementById('b-menu2-thur').innerText='G가츠동'//메뉴
+document.getElementById('b-menu2-thur').innerText='G두부김치제육'//메뉴
 document.getElementById('b-menu3-thur').innerText=''//가격
 
 //점심메뉴 4번
-document.getElementById('c-menu2-thur').innerText='J우삼겹숙주덮밥'//메뉴
+document.getElementById('c-menu2-thur').innerText='I닭갈비덮밥(떡재고사용)'//메뉴
 document.getElementById('c-menu3-thur').innerText=''//가격
 
 //점심메뉴 5번 
@@ -165,19 +165,19 @@ document.getElementById('mor-fri-menu6').innerText=''
 
 
 //반찬메뉴
-document.getElementById('k-menu2-fri').innerText='계란옷소시지,콩자반,배추김치'//메뉴
+document.getElementById('k-menu2-fri').innerText='볼어묵볶음,마늘쫑무침,배추김치'//메뉴
 document.getElementById('k-menu3-fri').innerText=''//가격
 
 //점심메뉴 2번 
-document.getElementById('a-menu2-fri').innerText='I육개장'//메뉴
+document.getElementById('a-menu2-fri').innerText='C두부찌개'//메뉴
 document.getElementById('a-menu3-fri').innerText=''//가격
 
 //점심메뉴 3번 
-document.getElementById('b-menu2-fri').innerText='C소고기무국'//메뉴
+document.getElementById('b-menu2-fri').innerText='J왕만둣국'//메뉴
 document.getElementById('b-menu3-fri').innerText=''//가격
 
 //점심메뉴 4번
-document.getElementById('c-menu2-fri').innerText='E스팸감자볶음밥&샤워크림소스'//메뉴
+document.getElementById('c-menu2-fri').innerText='F치킨마요덮밥'//메뉴
 document.getElementById('c-menu3-fri').innerText=''//가격
 
 //점심메뉴 5번 
