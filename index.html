@@ -25,13 +25,19 @@
     <link rel="stylesheet" href="style.css">
     </head>
 <body>
-    <div style="background-color:#21252C;z-index: index 100;position: absolute;top:0px;left:0px;">
-
-    </div>    
     <div id="load">
         <img src="icon.png">
     </div>
-      <div id="content">
+      <div id="content"></div>
+        <!-- <div class="fullscreen-overlay">
+            <div style="width:75%;left: 50%;top:50%;transform: translate(-50%,-50%);position:absolute">
+                <img style="width: 100%;" src="newface.png">
+                    <div style="position:relative; top: -5px;display: flex;flex-direction: row; flex: 1; justify-content: center; align-items: center;">
+                        <img src="playstore.png" style="width: 50%; cursor: pointer;" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.gravity0225.hsmj_expo&hl=ko'">
+                        <img src="appstore.png" style="width: 50%; cursor: pointer;" onclick="window.location.href='https://apps.apple.com/kr/app/%ED%95%99%EC%8B%9D%EB%AA%A8%EC%A7%80/id6737505390'">
+                    </div>
+            </div>
+        </div> -->
         <header id="header" style=" height:300px;border-radius: 0px 0px 20px 20px; background-color:#21252C;" >
             <p id="title1">오늘 수업도</p>
             <p id="title2">화이팅하세요!</p>
@@ -41,6 +47,7 @@
             </div>
             <img id="reload" onclick="reload1()" src="reload.png">
         </header>
+    
         <div id="banner" onclick="banner()">
             <img id="banner_left" src="banner4_left.png">
             <img id="banner_right" src="banner4_right.png">
