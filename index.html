@@ -34,7 +34,7 @@
                 <img style="width: 100%;" src="newface.png">
                     <div style="position:relative; top: -5px;display: flex;flex-direction: row; flex: 1; justify-content: center; align-items: center;">
 <img src="Playstore.png" style="width: 50%; cursor: pointer;"
-     onclick="window.open('https://play.google.com/store/apps/details?id=com.gravity0225.hsmj_expo&hl=ko', '_blank');">
+     onclick="openPlayStore();">
                         <img src="Appstore.png" style="width: 50%; cursor: pointer;" onclick="window.location.href='https://apps.apple.com/kr/app/%ED%95%99%EC%8B%9D%EB%AA%A8%EC%A7%80/id6737505390'">
                     </div>
             </div>
@@ -444,5 +444,22 @@
     </nav>
 </body>
 <script type="text/javascript" src="main.js"></script>
+<img src="Appstore.png" style="width: 50%; cursor: pointer;"
+     onclick="window.location.href='https://apps.apple.com/kr/app/%ED%95%99%EC%8B%9D%EB%AA%A8%EC%A7%80/id6737505390';">
+
+<script>
+    function openPlayStore() {
+        var appPackage = 'com.gravity0225.hsmj_expo'; // Play Store 앱 패키지 ID
+        var appUrl = 'market://details?id=' + appPackage;
+        var webUrl = 'https://play.google.com/store/apps/details?id=' + appPackage + '&hl=ko';
+
+        window.location.href = appUrl;
+
+        // 1초 후에도 앱이 실행되지 않으면 웹 페이지로 이동
+        setTimeout(function() {
+            window.location.href = webUrl;
+        }, 1000);
+    }
+</script>
 <script type="text/javascript" src="weekly.js"></script>
 </html>
