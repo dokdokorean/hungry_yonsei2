@@ -447,17 +447,7 @@
 
 <script>
     function openPlayStore() {
-        var packageName = 'com.gravity0225.hsmj_expo';
-        var webUrl = 'https://play.google.com/store/apps/details?id=' + packageName;
-        var searchUrl = 'https://play.google.com/store/search?q=학식모지&c=apps';
-
-        // 새 창에서 Play Store 실행 시도
-        window.open(webUrl, '_blank');
-
-        // 1초 후에도 실행되지 않으면 검색 페이지로 이동
-        setTimeout(function() {
-            window.open(searchUrl, '_blank');
-        }, 1500);
+        window.open('googleplay.html');
     }
 </script>
 
